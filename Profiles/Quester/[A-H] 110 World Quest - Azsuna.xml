@@ -271,12 +271,13 @@
         </QuestObjective>
       </Objectives>
     </Quest>
-<!--    <Quest>
+    <Quest>
       <Name>DANGER: Stormfeather</Name>
       <Id>43063</Id>
       <QuestLevel>110</QuestLevel>
       <MinLevel>110</MinLevel>
       <MaxLevel>110</MaxLevel>
+	  <ScriptCondition>=IsTankScript.cs</ScriptCondition>
       <WorldQuestLocation>
         <X>-732.9374</X>
         <Y>6515.701</Y>
@@ -300,6 +301,6 @@
           </Hotspots>
         </QuestObjective>
       </Objectives>
-    </Quest>-->
+    </Quest>
   </Quests>
 </QuesterProfile>
