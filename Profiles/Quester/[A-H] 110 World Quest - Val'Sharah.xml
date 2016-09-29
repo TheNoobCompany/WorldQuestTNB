@@ -9,6 +9,7 @@
       <MaxLevel>110</MaxLevel>
       <AutoAccepted>false</AutoAccepted>
       <QuestLevel>110</QuestLevel>
+	  <ScriptCondition>return (Skill.GetValue(SkillLine.Herbalism) > 0);</ScriptCondition>
       <WorldQuestLocation>
         <X>2135.439</X>
         <Y>6982.044</Y>
