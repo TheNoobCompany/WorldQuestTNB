@@ -271,5 +271,35 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+<!--    <Quest>
+      <Name>DANGER: Stormfeather</Name>
+      <Id>43063</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>-732.9374</X>
+        <Y>6515.701</Y>
+        <Z>111.8184</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Count>1</Count>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+          <InternalIndex>1</InternalIndex>
+          <Entry>
+            <int>109594</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>-732.9374</X>
+              <Y>6515.701</Y>
+              <Z>111.8184</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>-->
   </Quests>
 </QuesterProfile>
