@@ -221,5 +221,55 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Language of the Lost</Name>
+      <Id>42101</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>-576.3255</X>
+        <Y>5988.22</Y>
+        <Z>29.26938</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>PickUpObject</Objective>
+          <Count>10</Count>
+          <InternalIndex>1</InternalIndex>
+          <Entry>
+            <int>249513</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>-540.0497</X>
+              <Y>5971.074</Y>
+              <Z>30.55135</Z>
+            </Point>
+            <Point>
+              <X>-549.6499</X>
+              <Y>5866.304</Y>
+              <Z>29.29023</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Count>1</Count> 
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+          <InternalIndex>2</InternalIndex>
+          <Entry>
+            <int>89850</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>-635.5201</X>
+              <Y>5896.452</Y>
+              <Z>59.47859</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
 </QuesterProfile>
