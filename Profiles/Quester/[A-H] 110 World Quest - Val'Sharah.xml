@@ -18,6 +18,8 @@
       <Objectives>
         <QuestObjective>
           <Objective>InteractWith</Objective>
+		  <Count>1</Count>
+		  <InternalIndex>1</InternalIndex>
           <Entry>
             <int>103844</int>
           </Entry>
