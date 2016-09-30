@@ -317,7 +317,7 @@
         <QuestObjective>
           <Objective>KillMob</Objective>
           <Count>10</Count>
-          <InternalIndex>01</InternalIndex>
+          <InternalIndex>1</InternalIndex>
           <Entry>
             <int>107363</int>
             <int>107368</int>
@@ -343,7 +343,7 @@
         <QuestObjective>
           <Objective>PickUpObject</Objective>
           <Count>10</Count>
-          <InternalIndex>11</InternalIndex>
+          <InternalIndex>2</InternalIndex>
           <Entry>
             <int>250375</int>
           </Entry>
