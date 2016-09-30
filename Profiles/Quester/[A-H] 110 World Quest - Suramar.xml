@@ -18,7 +18,7 @@
       <Objectives>
         <QuestObjective>
           <Objective>KillMob</Objective>
-          <InternalIndex>1</InternalIndex>
+          <InternalIndex>7</InternalIndex>
           <Count>10</Count>
           <Entry>
             <int>105623</int>
@@ -47,7 +47,7 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>KillMob</Objective>
-          <InternalIndex>1</InternalIndex>
+          <InternalIndex>8</InternalIndex>
           <Count>6</Count>
           <Entry>
             <int>105676</int>
