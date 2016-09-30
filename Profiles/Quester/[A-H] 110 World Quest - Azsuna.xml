@@ -350,5 +350,41 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Smooth Sunrunner Hide</Name>
+      <Id>41582</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+	    <ScriptCondition>return (Skill.GetValue(SkillLine.Skinning) > 0);</ScriptCondition>
+      <WorldQuestLocation>
+        <X>817.2819</X>
+        <Y>5796.125</Y>
+        <Z>106.5564</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>1</InternalIndex>
+          <CollectItemId>137628</CollectItemId> <!-- Smooth Sunrunner Hide -->
+          <CollectCount>8</CollectCount>
+          <Entry>
+            <int>91308</int> <!-- Equine Sunrunner -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>703.0834</X>
+              <Y>5849.58</Y>
+              <Z>111.4403</Z>
+            </Point>
+            <Point>
+              <X>765.0959</X>
+              <Y>5918.871</Y>
+              <Z>134.1287</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
 </QuesterProfile>
