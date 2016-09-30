@@ -316,7 +316,7 @@
       <Objectives>
         <QuestObjective>
           <Objective>PickUpObject</Objective>
-          <Count>10</Count>
+          <Count>4</Count>
           <InternalIndex>2</InternalIndex>
           <Entry>
             <int>250375</int>
@@ -326,11 +326,6 @@
               <X>-539.7985</X>
               <Y>7675.212</Y>
               <Z>140.4233</Z>
-            </Point>
-            <Point>
-              <X>-558.3825</X>
-              <Y>7718.653</Y>
-              <Z>140.4649</Z>
             </Point>
           </Hotspots>
         </QuestObjective>
@@ -347,11 +342,6 @@
               <X>-647.2634</X>
               <Y>7601.998</Y>
               <Z>109.5427</Z>
-            </Point>
-            <Point>
-              <X>-539.7985</X>
-              <Y>7675.212</Y>
-              <Z>140.4233</Z>
             </Point>
             <Point>
               <X>-558.3825</X>
