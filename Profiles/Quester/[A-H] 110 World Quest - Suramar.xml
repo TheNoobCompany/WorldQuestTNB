@@ -73,20 +73,18 @@
       <QuestLevel>110</QuestLevel>
       <MinLevel>110</MinLevel>
       <MaxLevel>110</MaxLevel>
-      <AutoAccepted>false</AutoAccepted>
       <WorldQuestLocation>
         <X>1565.112</X>
         <Y>4713.143</Y>
         <Z>139.9307</Z>
       </WorldQuestLocation>
-      <TurnIn>0</TurnIn>
       <Objectives>
         <QuestObjective>
-          <Objective>UseSpell</Objective>
-          <InternalIndex>1</InternalIndex>
+          <Objective>UseActionButtonOnUnit</Objective>
+          <InternalIndex>4</InternalIndex>
           <Count>10</Count>
           <Entry>
-            <int>112801</int>
+            <int>98555</int>
           </Entry>
           <Hotspots>
             <Point>
@@ -101,6 +99,8 @@
             </Point>
           </Hotspots>
           <UseSpellId>224553</UseSpellId>
+          <WaitMs>4000</WaitMs>
+          <GetSetIgnoreFight>true</GetSetIgnoreFight>
           <Range>30</Range>
         </QuestObjective>
       </Objectives>
