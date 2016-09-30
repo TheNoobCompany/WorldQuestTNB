@@ -8,13 +8,11 @@
       <QuestLevel>110</QuestLevel>
       <MinLevel>110</MinLevel>
       <MaxLevel>110</MaxLevel>
-      <AutoAccepted>false</AutoAccepted>
       <WorldQuestLocation>
         <X>1935.183</X>
         <Y>5391.917</Y>
         <Z>-30.33499</Z>
       </WorldQuestLocation>
-      <TurnIn>0</TurnIn>
       <Objectives>
         <QuestObjective>
           <Objective>KillMob</Objective>
@@ -98,9 +96,8 @@
               <Z>129.7561</Z>
             </Point>
           </Hotspots>
-          <UseSpellId>224553</UseSpellId>
           <WaitMs>4000</WaitMs>
-          <GetSetIgnoreFight>true</GetSetIgnoreFight>
+          <UseSpellId>224553</UseSpellId>
           <Range>30</Range>
         </QuestObjective>
       </Objectives>
@@ -108,26 +105,24 @@
     <Quest>
       <Name>Iridescent Starlight Roses</Name>
       <Id>41538</Id>
+      <QuestLevel>110</QuestLevel>
       <MinLevel>110</MinLevel>
       <MaxLevel>110</MaxLevel>
-      <AutoAccepted>false</AutoAccepted>
-      <QuestLevel>110</QuestLevel>
-	  <ScriptCondition>return (Skill.GetValue(SkillLine.Herbalism) > 0);</ScriptCondition>
       <WorldQuestLocation>
         <X>1720.651</X>
         <Y>5304.354</Y>
         <Z>68.95671</Z>
       </WorldQuestLocation>
-      <TurnIn>0</TurnIn>
+      <ScriptCondition>return (Skill.GetValue(SkillLine.Herbalism) &gt; 0);</ScriptCondition>
       <Objectives>
         <QuestObjective>
           <Objective>PickUpObject</Objective>
           <InternalIndex>1</InternalIndex>
-          <CollectItemId>140991</CollectItemId>
-          <CollectCount>10</CollectCount>
           <Entry>
             <int>248031</int>
           </Entry>
+          <CollectItemId>140991</CollectItemId>
+          <CollectCount>10</CollectCount>
           <Hotspots>
             <Point>
               <X>1720.651</X>
