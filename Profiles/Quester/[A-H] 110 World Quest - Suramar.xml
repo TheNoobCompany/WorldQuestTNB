@@ -16,19 +16,10 @@
       <Objectives>
         <QuestObjective>
           <Objective>KillMob</Objective>
-          <InternalIndex>7</InternalIndex>
-          <Count>10</Count>
+          <InternalIndex>8</InternalIndex>
+          <Count>6</Count>
           <Entry>
-            <int>105623</int>
-            <int>105625</int>
-            <int>105632</int>
-            <int>105685</int>
-            <int>105686</int>
-            <int>105728</int>
-            <int>105739</int>
-            <int>105752</int>
-            <int>105753</int>
-            <int>114793</int>
+            <int>105676</int>
           </Entry>
           <Hotspots>
             <Point>
@@ -45,10 +36,19 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>KillMob</Objective>
-          <InternalIndex>8</InternalIndex>
-          <Count>6</Count>
+          <InternalIndex>7</InternalIndex>
+          <Count>10</Count>
           <Entry>
-            <int>105676</int>
+            <int>105623</int>
+            <int>105625</int>
+            <int>105632</int>
+            <int>105685</int>
+            <int>105686</int>
+            <int>105728</int>
+            <int>105739</int>
+            <int>105752</int>
+            <int>105753</int>
+            <int>114793</int>
           </Entry>
           <Hotspots>
             <Point>
