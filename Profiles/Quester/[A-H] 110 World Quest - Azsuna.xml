@@ -386,5 +386,238 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Faronaar in Chaos</Name>
+      <Id>42027</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>-381.9999</X>
+        <Y>7331.751</Y>
+        <Z>39.00508</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>PickUpObject</Objective>
+          <Count>2</Count> <!-- average Objectcount per Hotspot -->
+          <Entry>
+            <!-- 1/10 -->
+            <int>249411</int> <!-- Legion Portal -->
+            <!-- 1/17 -->
+            <int>249412</int> <!-- Libram of Fel Knowledge -->
+            <!-- 1/50 -->
+            <int>249421</int> <!-- Soul Prison -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>-381.7636</X>
+              <Y>7322.387</Y>
+              <Z>36.62932</Z>
+            </Point>
+            <Point>
+              <X>-229.6719</X>
+              <Y>7200.666</Y>
+              <Z>17.74103</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Count>3</Count>
+          <Entry>
+            <!-- 1/4 -->
+            <int>90662</int> <!-- Imp Mother Fecunda -->
+            <!-- 1/13 -->
+            <int>103176</int> <!-- Mo'arg Crusher -->
+            <int>103363</int> <!-- Soultorn Jailer -->
+            <!-- 1/17 -->
+            <int>89731</int> <!-- Fel Seeker -->
+            <int>90661</int> <!-- Eredar Supplicant -->
+            <int>103180</int> <!-- Vile Doombringer -->
+            <int>90659</int> <!-- Legion Skyterror -->
+            <int>103162</int> <!-- Eredar Supplicant -->
+            <int>103231</int> <!-- Grim Inquisitor -->
+            <!-- 1/25 -->
+            <int>90660</int> <!-- Burning Hellion -->
+          </Entry>
+          <Hotspots>
+            <Point><!-- Imp Mother Fecunda Location -->
+              <X>-169.2448</X>
+              <Y>7388.976</Y>
+              <Z>14.09709</Z>
+            </Point>
+            <Point>
+              <X>-381.7636</X>
+              <Y>7322.387</Y>
+              <Z>36.62932</Z>
+            </Point>
+            <Point>
+              <X>-229.6719</X>
+              <Y>7200.666</Y>
+              <Z>17.74103</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
+    <Quest>
+      <Name>WANTED: Vorthax</Name>
+      <Id>42633</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>-113.2328</X>
+        <Y>7400.449</Y>
+        <Z>102.4182</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Count>1</Count>
+          <Entry>
+            <int>107113</int> <!-- Vorthax -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>-90.25436</X>
+              <Y>7371.345</Y>
+              <Z>103.8052</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
+    <Quest>
+      <Name>WANTED: Warbringer Mox'na</Name>
+      <Id>43431</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>-536.2983</X>
+        <Y>6685.736</Y>
+        <Z>102.2407</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Count>1</Count>
+          <Entry>
+            <int>90164</int> <!-- Warbringer Mox'na -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>-536.2983</X>
+              <Y>6685.736</Y>
+              <Z>102.2407</Z>
+            </Point>
+            <Point>
+              <X>-581.1536</X>
+              <Y>6658.77</Y>
+              <Z>112.1388</Z>
+            </Point>
+            <Point>
+              <X>-629.8542</X>
+              <Y>6570.632</Y>
+              <Z>111.5103</Z>
+            </Point>
+            <Point>
+              <X>-661.5565</X>
+              <Y>6450.899</Y>
+              <Z>112.1492</Z>
+            </Point>
+            <Point>
+              <X>-629.8542</X>
+              <Y>6570.632</Y>
+              <Z>111.5103</Z>
+            </Point>
+            <Point>
+              <X>-581.1536</X>
+              <Y>6658.77</Y>
+              <Z>112.1388</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
+    <Quest>
+      <Name>A Cleansing Cocktail</Name>
+      <Id>42119</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>257.4781</X>
+        <Y>6986.711</Y>
+        <Z>83.2653</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>PickUpObject</Objective>
+          <CollectItemId>136860</CollectItemId> <!-- Cliffwing Hippogryph Egg -->
+          <CollectCount>7</CollectCount>
+          <Count>7</Count>
+          <Entry>
+            <int>249704</int> <!-- Cliffwing Hippogryph Egg -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>163.4221</X>
+              <Y>7078.346</Y>
+              <Z>64.76645</Z>
+            </Point>
+            <Point>
+              <X>130.3386</X>
+              <Y>6978.731</Y>
+              <Z>66.87228</Z>
+            </Point>
+            <Point>
+              <X>138.768</X>
+              <Y>6916.394</Y>
+              <Z>82.90837</Z>
+            </Point>
+            <Point>
+              <X>284.4912</X>
+              <Y>6923.455</Y>
+              <Z>90.38322</Z>
+            </Point>
+            <Point>
+              <X>412.3457</X>
+              <Y>6986.077</Y>
+              <Z>108.2928</Z>
+            </Point>
+            <Point>
+              <X>362.8372</X>
+              <Y>7168.369</Y>
+              <Z>115.5778</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <CollectItemId>136859</CollectItemId> <!-- Fat Bear Liver -->
+          <CollectCount>5</CollectCount>
+          <Entry>
+            <int>90134</int> <!-- Llothien Grizzly -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>427.414</X>
+              <Y>7088.042</Y>
+              <Z>125.586</Z>
+            </Point>
+            <Point>
+              <X>280.1279</X>
+              <Y>6981.133</Y>
+              <Z>86.76693</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+    </Quest>
   </Quests>
 </QuesterProfile>
