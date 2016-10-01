@@ -558,9 +558,9 @@
       <Objectives>
         <QuestObjective>
           <Objective>PickUpObject</Objective>
+          <InternalIndex>1</InternalIndex>
           <CollectItemId>136860</CollectItemId> <!-- Cliffwing Hippogryph Egg -->
           <CollectCount>7</CollectCount>
-          <Count>7</Count>
           <Entry>
             <int>249704</int> <!-- Cliffwing Hippogryph Egg -->
           </Entry>
@@ -597,9 +597,9 @@
             </Point>
           </Hotspots>
         </QuestObjective>
-      </Objectives>
         <QuestObjective>
           <Objective>KillMob</Objective>
+          <InternalIndex>2</InternalIndex>
           <CollectItemId>136859</CollectItemId> <!-- Fat Bear Liver -->
           <CollectCount>5</CollectCount>
           <Entry>
@@ -618,6 +618,7 @@
             </Point>
           </Hotspots>
         </QuestObjective>
+      </Objectives>
     </Quest>
   </Quests>
 </QuesterProfile>
