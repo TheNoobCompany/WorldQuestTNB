@@ -65,7 +65,7 @@
         </QuestObjective>
       </Objectives>
     </Quest>
-    <Quest>
+<!--    <Quest>
       <Name>Withered Wrangling: Meredil and Ambervale</Name>
       <Id>43807</Id>
       <QuestLevel>110</QuestLevel>
@@ -101,7 +101,7 @@
           <Range>30</Range>
         </QuestObjective>
       </Objectives>
-    </Quest>
+    </Quest>-->
     <Quest>
       <Name>Iridescent Starlight Roses</Name>
       <Id>41538</Id>
@@ -162,6 +162,36 @@
               <X>1197.379</X>
               <Y>4746.045</Y>
               <Z>156.9177</Z>
+            </Point>
+          </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
+    <Quest>
+      <Name>WANTED: Cadraeus</Name>
+      <Id>44016</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation> 
+        <X>1720.307</X>
+        <Y>3187.212</Y>
+        <Z>187.4729</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Count>1</Count>
+          <Entry>
+            <int>110726</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>1686.163</X>
+              <Y>3178.62</Y>
+              <Z>198.1074</Z>
             </Point>
           </Hotspots>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
