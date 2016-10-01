@@ -620,5 +620,100 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>The Withered Return</Name>
+      <Id>42112</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>1096.952</X>
+        <Y>6842.665</Y>
+        <Z>170.574</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>PickUpObject</Objective>
+          <CollectItemId>136850</CollectItemId> <!-- Stolen Ley Crystal -->
+          <CollectCount>8</CollectCount>
+          <Entry>
+            <int>249702</int> <!-- Stolen Ley Crystals -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>1100.697</X>
+              <Y>6711.063</Y>
+              <Z>168.6836</Z>
+            </Point>
+            <Point>
+              <X>1096.952</X>
+              <Y>6842.665</Y>
+              <Z>170.574</Z>
+            </Point>
+            <Point>
+              <X>1153.283</X>
+              <Y>6767.13</Y>
+              <Z>162.8417</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PickUpNPC</Objective>
+          <InternalIndex>4</InternalIndex>
+          <Count>8</Count>
+          <Entry>
+            <int>106297</int> <!-- Mana-Starved Whelpling -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>1153.283</X>
+              <Y>6767.13</Y>
+              <Z>162.8417</Z>
+            </Point>
+            <Point>
+              <X>1096.952</X>
+              <Y>6842.665</Y>
+              <Z>170.574</Z>
+            </Point>
+            <Point>
+              <X>1035.077</X>
+              <Y>6794.245</Y>
+              <Z>181.9333</Z>
+            </Point>
+            <Point>
+              <X>1045.73</X>
+              <Y>6716.261</Y>
+              <Z>186.9813</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>5</InternalIndex>
+          <Count>10</Count>
+          <Entry>
+            <int>90379</int> <!-- Withered Exile -->
+            <int>90380</int> <!-- Withered Mana-Rager -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>1163.604</X>
+              <Y>6742.484</Y>
+              <Z>162.3038</Z>
+            </Point>
+            <Point>
+              <X>1154.047</X>
+              <Y>6817.138</Y>
+              <Z>162.9193</Z>
+            </Point>
+            <Point>
+              <X>1096.952</X>
+              <Y>6842.665</Y>
+              <Z>170.574</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
 </QuesterProfile>
