@@ -64,5 +64,76 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Shadowfen Village</Name>
+      <Id>42076</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>3104.928</X>
+        <Y>5851.845</Y>
+        <Z>289.5245</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>7</InternalIndex>
+          <Count>1</Count>
+          <Entry>
+            <int>95123</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>3033.086</X>
+              <Y>5964.061</Y>
+              <Z>277.2593</Z>
+            </Point>
+          </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PickUpObject</Objective>
+          <InternalIndex>9</InternalIndex>
+          <CollectCount>20</CollectCount>
+          <Entry>
+            <int>249393</int>
+          </Entry>
+          <Hotspots>
+            <Point>  
+              <X>3080.75</X>
+              <Y>6018.597</Y>
+              <Z>276.2219</Z>
+            </Point>
+            <Point>  
+              <X>3025.801</X>
+              <Y>5915.644</Y>
+              <Z>275.67</Z>
+            </Point>
+            <Point> 
+              <X>3089.699</X>
+              <Y>5971.426</Y>
+              <Z>277.0635</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>8</InternalIndex>
+          <Count>10</Count>
+          <Entry>
+            <int>95152</int>
+            <int>95138</int>
+          </Entry>
+          <Hotspots>
+            <Point> 
+              <X>3061.859</X>
+              <Y>5898.567</Y>
+              <Z>275.4984</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
 </QuesterProfile>
