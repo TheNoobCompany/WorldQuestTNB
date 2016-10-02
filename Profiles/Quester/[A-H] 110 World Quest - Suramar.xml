@@ -65,7 +65,7 @@
         </QuestObjective>
       </Objectives>
     </Quest>
-<!--    <Quest>
+    <Quest>
       <Name>Withered Wrangling: Meredil and Ambervale</Name>
       <Id>43807</Id>
       <QuestLevel>110</QuestLevel>
@@ -101,7 +101,7 @@
           <Range>30</Range>
         </QuestObjective>
       </Objectives>
-    </Quest>-->
+    </Quest>
     <Quest>
       <Name>Iridescent Starlight Roses</Name>
       <Id>41538</Id>
