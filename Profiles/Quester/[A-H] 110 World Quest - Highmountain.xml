@@ -287,5 +287,80 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Crawliac's Legacy</Name>
+      <Id>41622</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>5058.924</X>
+        <Y>4154.153</Y>
+        <Z>813.0472</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>PickUpNPC</Objective>
+          <InternalIndex>6</InternalIndex>
+          <Count>3</Count>
+          <Entry>
+            <int>104531</int> <!-- Hexxing Fetish -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>5050.638</X>
+              <Y>4086.412</Y>
+              <Z>793.7144</Z>
+            </Point>
+            <Point>
+              <X>4955.735</X>
+              <Y>4032.041</Y>
+              <Z>798.5005</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>2</InternalIndex>
+          <Count>3</Count>
+          <Entry>
+            <int>94986</int> <!-- Fleshrender Roc -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>5050.638</X>
+              <Y>4086.412</Y>
+              <Z>793.7144</Z>
+            </Point>
+            <Point>
+              <X>4955.735</X>
+              <Y>4032.041</Y>
+              <Z>798.5005</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Count>8</Count>
+          <Entry>
+            <int>94983</int> <!-- Crawliac Skywitch -->
+            <int>94984</int> <!-- Crawliac Doomwailer -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>5058.924</X>
+              <Y>4154.153</Y>
+              <Z>813.0472</Z>
+            </Point>
+            <Point>
+              <X>5097.35</X>
+              <Y>3987.99</Y>
+              <Z>806.5157</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
 </QuesterProfile>
