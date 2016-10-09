@@ -586,7 +586,7 @@
         <QuestObjective>
           <Objective>PickUpObject</Objective>
           <InternalIndex>4</InternalIndex>
-          <Count>10</Count>
+          <Count>8</Count>
           <Entry>
             <int>251946</int> <!-- Moist Grizzleberries -->
           </Entry>
