@@ -1151,5 +1151,67 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Faronaar in Ruin</Name>
+      <Id>42026</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>-613.836</X>
+        <Y>7269.435</Y>
+        <Z>27.61122</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>PickUpObject</Objective>
+          <InternalIndex>9</InternalIndex>
+          <Count>8</Count>
+          <Entry>
+            <int>249416</int>
+          </Entry>
+          <Hotspots>
+            <Point> 
+              <X>-654.7639</X>
+              <Y>7298</Y>
+              <Z>26.60166</Z>
+            </Point>
+            <Point>
+              <X>-743.8021</X>
+              <Y>7339.407</Y>
+              <Z>15.17719</Z>
+            </Point>
+            <Point>
+              <X>-825.1139</X>
+              <Y>7283.45</Y>
+              <Z>39.49133</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>2</InternalIndex>
+          <Count>10</Count>
+          <Entry>
+            <int>90659</int>
+            <int>103231</int>
+            <int>103363</int>
+            <int>89731</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>-721.3828</X>
+              <Y>7211.505</Y>
+              <Z>34.70384</Z>
+            </Point>
+            <Point>
+              <X>-752.1752</X>
+              <Y>7344.103</Y>
+              <Z>15.17948</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
 </QuesterProfile>
