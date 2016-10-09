@@ -16,9 +16,9 @@
       <Objectives>
         <QuestObjective>
           <Objective>KillMob</Objective>
-		  <Count>-1</Count>
-		  <!-- % are tricky, as there is only one objective, rush the % first -->
-		  <!-- If more objectives, do the % at the end, even if "InternalIndex = 1" -->
+          <Count>-1</Count>
+          <!-- % are tricky, as there is only one objective, rush the % first -->
+          <!-- If more objectives, do the % at the end, even if "InternalIndex = 1" -->
           <Entry>
             <int>107133</int>
             <int>107135</int>
@@ -321,15 +321,20 @@
             <int>250375</int>
           </Entry>
           <Hotspots>
-            <Point>
-              <X>-539.7985</X>
-              <Y>7675.212</Y>
-              <Z>140.4233</Z>
+            <Point> 
+              <X>-575.4802</X>
+              <Y>7737.16</Y>
+              <Z>141.3467</Z>
             </Point>
-            <Point>
-              <X>-560.8834</X>
-              <Y>7723.794</Y>
-              <Z>140.4059</Z>
+            <Point> 
+              <X>-517.7883</X>
+              <Y>7660.651</Y>
+              <Z>141.2542</Z>
+            </Point>
+            <Point>  
+              <X>-551.5763</X>
+              <Y>7681.123</Y>
+              <Z>117.6851</Z>
             </Point>
           </Hotspots>
         </QuestObjective>
@@ -362,7 +367,7 @@
       <QuestLevel>110</QuestLevel>
       <MinLevel>110</MinLevel>
       <MaxLevel>110</MaxLevel>
-	    <ScriptCondition>return (Skill.GetValue(SkillLine.Skinning) > 0);</ScriptCondition>
+      <ScriptCondition>return (Skill.GetValue(SkillLine.Skinning) > 0);</ScriptCondition>
       <WorldQuestLocation>
         <X>817.2819</X>
         <Y>5796.125</Y>
