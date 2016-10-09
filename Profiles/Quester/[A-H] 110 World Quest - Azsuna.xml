@@ -1280,23 +1280,11 @@
       <MinLevel>110</MinLevel>
       <MaxLevel>110</MaxLevel>
       <WorldQuestLocation> 
-        <X>-338.6524</X>
-        <Y>8073.014</Y>
-        <Z>91.11565</Z>
+        <X>-473.2882</X>
+        <Y>7971.741</Y>
+        <Z>329.3157</Z>
       </WorldQuestLocation>
       <Objectives>
-        <QuestObjective>
-          <Objective>InteractWith</Objective>
-          <Count>1</Count>
-          <Entry>
-            <int>250269</int>
-          </Entry>
-          <Position>
-            <X>-349.3655</X>
-            <Y>8063.979</Y>
-            <Z>90.83488</Z>
-          </Position>
-        </QuestObjective>
         <QuestObjective>
           <Objective>KillMob</Objective>
           <Count>1</Count>
