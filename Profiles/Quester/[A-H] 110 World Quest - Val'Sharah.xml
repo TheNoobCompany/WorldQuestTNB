@@ -871,5 +871,35 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Slab of Bacon</Name>
+      <Id>41553</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>2779.544</X>
+        <Y>5824.66</Y>
+        <Z>295.2301</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Count>1</Count>
+          <Entry>
+            <int>103785</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>2775.589</X>
+              <Y>5807.959</Y>
+              <Z>293.5842</Z>
+            </Point>
+          </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
 </QuesterProfile>
