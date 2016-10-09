@@ -762,5 +762,41 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Where's the Reef?</Name>
+      <Id>43759</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation> 
+        <X>2462.435</X>
+        <Y>8297.681</Y>
+        <Z>7.775694</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>4</InternalIndex>
+          <Count>15</Count>
+          <Entry>
+            <int>111472</int> <!-- Clackbrine Matron -->
+            <int>111473</int> <!-- Clackbrine Pincer -->
+            <int>111474</int> <!-- Clackbrine Snapper -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>2431.094</X>
+              <Y>8373.669</Y>
+              <Z>1.076474</Z>
+            </Point>
+            <Point>
+              <X>2577.128</X>
+              <Y>8383.321</Y>
+              <Z>1.648243</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
 </QuesterProfile>
