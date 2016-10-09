@@ -71,9 +71,9 @@
       <MinLevel>110</MinLevel>
       <MaxLevel>110</MaxLevel>
       <WorldQuestLocation>
-        <X>3104.928</X>
-        <Y>5851.845</Y>
-        <Z>289.5245</Z>
+        <X>3101.697</X>
+        <Y>5858.513</Y>
+        <Z>287.9253</Z>
       </WorldQuestLocation>
       <Objectives>
         <QuestObjective>
@@ -578,9 +578,9 @@
       <MinLevel>110</MinLevel>
       <MaxLevel>110</MaxLevel>
       <WorldQuestLocation>
-        <X>1819.689</X>
-        <Y>7438.806</Y>
-        <Z>1.15927</Z>
+        <X>2164.819</X>
+        <Y>5942.402</Y>
+        <Z>150.9084</Z>
       </WorldQuestLocation>
       <Objectives>
         <QuestObjective>
@@ -592,9 +592,9 @@
           </Entry>
           <Hotspots>
             <Point>
-              <X>1819.689</X>
-              <Y>7438.806</Y>
-              <Z>1.15927</Z>
+              <X>2164.819</X>
+              <Y>5942.402</Y>
+              <Z>150.9084</Z>
             </Point>
             <Point>
               <X>2251.75</X>
@@ -627,14 +627,60 @@
           </Entry>
           <Hotspots>
             <Point>
-              <X>1819.689</X>
-              <Y>7438.806</Y>
-              <Z>1.15927</Z>
+              <X>2164.819</X>
+              <Y>5942.402</Y>
+              <Z>150.9084</Z>
             </Point>
             <Point>
               <X>2251.75</X>
               <Y>5872.778</Y>
               <Z>160.1107</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
+    <Quest>
+      <Name>Flourishing Dreamleaf</Name>
+      <Id>41294</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>2745.615</X>
+        <Y>7416.663</Y>
+        <Z>5.337918</Z>
+      </WorldQuestLocation>
+      <ScriptCondition>return (Skill.GetValue(SkillLine.Herbalism) > 0);</ScriptCondition>
+      <Objectives>
+        <QuestObjective>
+          <Objective>PickUpObject</Objective> <!-- Wildeyed Undergrell -->
+          <InternalIndex>1</InternalIndex>
+          <Entry>
+            <int>247606</int>
+          </Entry>
+          <CollectItemId>140952</CollectItemId> <!-- Flourishing Dreamleaf -->
+          <CollectCount>10</CollectCount>
+          <Hotspots>
+            <Point>
+              <X>2745.615</X>
+              <Y>7416.663</Y>
+              <Z>5.337918</Z>
+            </Point>
+            <Point>
+              <X>2746.134</X>
+              <Y>7554.07</Y>
+              <Z>16.50253</Z>
+            </Point>
+            <Point>
+              <X>2659.889</X>
+              <Y>7609.625</Y>
+              <Z>16.95549</Z>
+            </Point>
+            <Point>
+              <X>2677.758</X>
+              <Y>7403.709</Y>
+              <Z>7.58376</Z>
             </Point>
           </Hotspots>
         </QuestObjective>
