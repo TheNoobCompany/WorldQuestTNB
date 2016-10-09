@@ -586,5 +586,64 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Border Reinforcements</Name>
+      <Id>41308</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>3891.95</X>
+        <Y>3500.18</Y>
+        <Z>800.5155</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Count>1</Count> 
+          <Entry>
+            <int>103837</int> <!-- Tideskorn Raider -->
+            <int>103850</int> <!-- Tideskorn Stormbringer -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>3873.505</X>
+              <Y>3523.79</Y>
+              <Z>800.554</Z>
+            </Point>
+            <Point>
+              <X>3730.697</X>
+              <Y>3490.361</Y>
+              <Z>754.2913</Z>
+            </Point> 
+            <Point>
+              <X>3847.473</X>
+              <Y>3435.307</Y>
+              <Z>755.1188</Z>
+            </Point> 
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
+  <Blackspots>
+    <QuesterBlacklistRadius>
+      <!-- Required by "Border Reinforcements" -->
+      <Position>
+        <X>3919.326</X>
+        <Y>3553.347</Y>
+        <Z>812.4172</Z>
+      </Position>
+      <Radius>20</Radius>
+    </QuesterBlacklistRadius>
+    <QuesterBlacklistRadius>
+      <!-- Required by "Border Reinforcements" -->
+      <Position> 
+        <X>3960.221</X>
+        <Y>3520.678</Y>
+        <Z>751.5049</Z>
+      </Position>
+      <Radius>100</Radius>
+    </QuesterBlacklistRadius>
+  </Blackspots>
 </QuesterProfile>
