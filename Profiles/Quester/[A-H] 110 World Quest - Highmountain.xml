@@ -10,9 +10,9 @@
       <AutoAccepted>false</AutoAccepted>
       <QuestLevel>110</QuestLevel>
       <WorldQuestLocation>
-      <X>5446.269</X>
-      <Y>4631.716</Y>
-      <Z>636.9424</Z>
+        <X>5446.269</X>
+        <Y>4631.716</Y>
+        <Z>636.9424</Z>
       </WorldQuestLocation>
       <TurnIn>0</TurnIn>
       <Objectives>
@@ -62,7 +62,7 @@
         <Z>786.5641</Z>
       </WorldQuestLocation>
       <Objectives>
-		<!-- Gathering Grain Sacks doesn't work
+        <!-- Gathering Grain Sacks doesn't work
         <QuestObjective>
           <Objective>PickUpObject</Objective>
           <Count>1</Count>
@@ -88,7 +88,7 @@
           <Entry>
             <!-- 1/10 -->
             <int>96146</int> <!-- Bristlefur Bear -->
-       <!-- <int>96146</int> Bristlemaul isn't worth the time -->
+            <!-- <int>96146</int> Bristlemaul isn't worth the time -->
           </Entry>
           <Hotspots>
             <Point>
@@ -359,6 +359,36 @@
               <Z>806.5157</Z>
             </Point>
           </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
+    <Quest>
+      <Name>WANTED: Arru</Name>
+      <Id>44289</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>4606.411</X>
+        <Y>4243.127</Y>
+        <Z>820.3815</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Count>1</Count>
+          <Entry>
+            <int>97220</int> <!-- Arru -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>4609.884</X>
+              <Y>4228.596</Y>
+              <Z>814.5448</Z>
+            </Point>
+          </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
       </Objectives>
     </Quest>
