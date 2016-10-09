@@ -686,5 +686,81 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Seal Clubbing</Name>
+      <Id>43709</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>3450.174</X>
+        <Y>7090.816</Y>
+        <Z>3.741213</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>PickUpNPC</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Count>8</Count>
+          <Entry>
+            <int>111252</int> <!-- Druid of the Fin -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>3450.174</X>
+              <Y>7090.816</Y>
+              <Z>3.741213</Z>
+            </Point>
+            <Point>
+              <X>3338.241</X>
+              <Y>7006.352</Y>
+              <Z>4.737566</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PickUpNPC</Objective>
+          <InternalIndex>4</InternalIndex>
+          <Count>8</Count>
+          <Entry>
+            <int>111253</int> <!-- Hypnotic Water Lily -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>3450.174</X>
+              <Y>7090.816</Y>
+              <Z>3.741213</Z>
+            </Point>
+            <Point>
+              <X>3338.241</X>
+              <Y>7006.352</Y>
+              <Z>4.737566</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>6</InternalIndex>
+          <Count>10</Count>
+          <Entry>
+            <int>111278</int> <!-- Thistleleaf Lilydancer -->
+            <int>111279</int> <!-- Thistleleaf Twigsnapper -->
+            <int>111280</int> <!-- Thistleleaf Petalpeeler -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>3450.174</X>
+              <Y>7090.816</Y>
+              <Z>3.741213</Z>
+            </Point>
+            <Point>
+              <X>3338.241</X>
+              <Y>7006.352</Y>
+              <Z>4.737566</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
 </QuesterProfile>
