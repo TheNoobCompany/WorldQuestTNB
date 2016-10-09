@@ -901,5 +901,60 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <!-- WORK IN PROGRESS
+      Problem description: 
+        When the player is transformed into npc his combat action bar is 
+        replaced by the cat's action bar.
+        
+      Solution explored:
+        - KillMob (npcs do nothing, just run and try to use player technics)
+        - KeyPress (npcs do nothing but waiting)
+        
+      NPCS:
+        - Sentinel of Ursoc - http://www.wowhead.com/npc=106588
+        - Verdant Grovewalker - http://www.wowhead.com/npc=106628
+        - Emerald Sister - http://www.wowhead.com/npc=106607
+        - Blackmaw Furbolg - http://www.wowhead.com/npc=106575
+        
+    <Quest>
+      <Name>Champions of Elune</Name>
+      <Id>42174</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>3492.472</X>
+        <Y>5540.963</Y>
+        <Z>323.0205</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>InteractWith</Objective>
+          <Count>1</Count>
+          <GossipOptionsInteractWith>1</GossipOptionsInteractWith> 
+          <Entry>
+            <int>106638</int>
+          </Entry>
+          <Position>
+            <X>3513.522</X>
+            <Y>5547.427</Y>
+            <Z>323.7502</Z>
+          </Position>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Count>1</Count>
+          <Entry>
+            <int>97796</int>
+          </Entry>
+          <Position>
+            <X>3586.538</X>
+            <Y>-4746.877</Y>
+            <Z>119.8263</Z>
+          </Position>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
+    -->
   </Quests>
 </QuesterProfile>
