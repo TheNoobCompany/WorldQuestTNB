@@ -503,6 +503,36 @@
       </Objectives>
     </Quest>
     <Quest>
+      <Name>WANTED: Vorthax - 2</Name>
+      <Id>43614</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>-113.2328</X>
+        <Y>7400.449</Y>
+        <Z>102.4182</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Count>1</Count>
+          <Entry>
+            <int>107113</int> <!-- Vorthax -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>-90.25436</X>
+              <Y>7371.345</Y>
+              <Z>103.8052</Z>
+            </Point>
+          </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
+    <Quest>
       <Name>WANTED: Warbringer Mox'na</Name>
       <Id>43431</Id>
       <QuestLevel>110</QuestLevel>
