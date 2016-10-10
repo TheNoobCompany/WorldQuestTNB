@@ -397,14 +397,13 @@
         </QuestObjective>
       </Objectives>
     </Quest>
-    <!--
     <Quest>
       <Name>Fel Hide</Name>
       <Id>41563</Id>
       <QuestLevel>110</QuestLevel>
       <MinLevel>110</MinLevel>
       <MaxLevel>110</MaxLevel>
-      <ScriptCondition>return (Skill.GetValue(SkillLine.Skinning) > 0) && IsTankScript.cs;</ScriptCondition>
+      <ScriptCondition>=IsTankHaveSkinningScript.cs;</ScriptCondition>
       <WorldQuestLocation>
         <X>-1274.185</X>
         <Y>7085.82</Y>
@@ -428,7 +427,6 @@
         </QuestObjective>
       </Objectives>
     </Quest>
-    -->
     <Quest>
       <Name>Faronaar in Chaos</Name>
       <Id>42027</Id>
