@@ -397,6 +397,7 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <!--
     <Quest>
       <Name>Fel Hide</Name>
       <Id>41563</Id>
@@ -427,6 +428,7 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    -->
     <Quest>
       <Name>Faronaar in Chaos</Name>
       <Id>42027</Id>
