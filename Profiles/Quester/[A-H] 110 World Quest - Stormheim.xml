@@ -195,6 +195,35 @@
               <Y>1655.477</Y>
               <Z>4.098811</Z>
           </Position>
+          <WaitMs>1000</WaitMs>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
+    <Quest>
+      <Name>Felwort</Name>
+      <Id>41521</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>1370.208</X>
+        <Y>109.8177</Y>
+        <Z>19.88334</Z>
+      </WorldQuestLocation>
+      <ScriptCondition>return (Skill.GetValue(SkillLine.Herbalism) > 0);</ScriptCondition>
+      <Objectives>
+        <QuestObjective>
+          <Objective>InteractWith</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Count>1</Count>
+          <Entry>
+            <int>248009</int> <!-- Felwort -->
+          </Entry>
+          <Position>
+            <X>1370.208</X>
+            <Y>109.8177</Y>
+            <Z>19.88334</Z>
+          </Position>
         </QuestObjective>
       </Objectives>
     </Quest>
