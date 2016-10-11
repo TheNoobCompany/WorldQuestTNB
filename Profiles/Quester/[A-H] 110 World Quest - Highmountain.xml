@@ -733,6 +733,75 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Sea of Feathers</Name>
+      <Id>41691</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>5610.661</X>
+        <Y>4679.237</Y>
+        <Z>666.1995</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>PickUpObject</Objective>
+          <InternalIndex>7</InternalIndex>
+          <Count>4</Count> 
+          <Entry>
+            <int>243401</int> <!-- Harpy Egg -->
+          </Entry>
+          <Hotspots>
+            <Point>  
+              <X>5629.314</X>
+              <Y>4784.795</Y>
+              <Z>672.7749</Z>
+            </Point> 
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>3</InternalIndex>
+          <Count>4</Count> 
+          <Entry>
+            <int>95270</int> <!-- Bewitched Bear -->
+          </Entry>
+          <Hotspots>
+            <Point>  
+              <X>5629.314</X>
+              <Y>4784.795</Y>
+              <Z>672.7749</Z>
+            </Point>
+            <Point>    
+              <X>5536.764</X>
+              <Y>4700.417</Y>
+              <Z>663.4827</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Count>6</Count> 
+          <Entry>
+            <int>95310</int> <!--  Witchwood Hag -->
+          </Entry>
+          <Hotspots>
+            <Point>  
+              <X>5629.314</X>
+              <Y>4784.795</Y>
+              <Z>672.7749</Z>
+            </Point> 
+            <Point>    
+              <X>5536.764</X>
+              <Y>4700.417</Y>
+              <Z>663.4827</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
   <Blackspots>
     <QuesterBlacklistRadius>
