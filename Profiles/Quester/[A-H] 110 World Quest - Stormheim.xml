@@ -38,5 +38,41 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <!--
+      This quest works but has been commented because TNB can't find a way to it
+      The player must go to the garrison first.
+    <Quest>
+      <Name>WANTED: Thane Irglov</Name>
+      <Id>43437</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation> 
+        <X>2409.653</X>
+        <Y>2621.673</Y>
+        <Z>298.166</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Count>4</Count>
+          <Entry>
+            <int>91892</int> 
+            <int>91893</int> 
+            <int>91895</int> 
+            <int>91894</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>2409.653</X>
+              <Y>2621.673</Y>
+              <Z>298.166</Z>
+            </Point>
+          </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
+    -->
   </Quests>
 </QuesterProfile>
