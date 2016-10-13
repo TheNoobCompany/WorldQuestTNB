@@ -1587,5 +1587,63 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Tomes of Yore</Name>
+      <Id>42506</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>328.7874</X>
+        <Y>7550.291</Y>
+        <Z>146.167</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>PickUpObject</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Count>1</Count>
+          <Entry>
+            <int>250592</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>277.3734</X>
+              <Y>7410.086</Y>
+              <Z>145.5608</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PickUpObject</Objective>
+          <InternalIndex>5</InternalIndex>
+          <Count>1</Count>
+          <Entry>
+            <int>250591</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>331.0016</X>
+              <Y>7365.515</Y>
+              <Z>141.0828</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PickUpObject</Objective>
+          <Count>1</Count>
+          <Entry>
+            <int>250593</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>322.5892</X>
+              <Y>7549.101</Y>
+              <Z>146.167</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
 </QuesterProfile>
