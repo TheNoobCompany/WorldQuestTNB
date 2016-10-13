@@ -468,5 +468,48 @@
         </QuestObjective>
       </Objectives>
     </Quest>-->
+    <Quest>
+      <Name>WANTED: Nameless King</Name>
+      <Id>43438</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>3601.203</X>
+        <Y>1124.134</Y>
+        <Z>141.4113</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>PickUpObject</Objective>
+          <Count>1</Count>
+          <Entry>
+            <int>241568</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>3625.802</X>
+              <Y>1129.061</Y>
+              <Z>137.2454</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Count>1</Count>
+          <Entry>
+            <int>92763</int> <!-- WANTED: Nameless King -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>3628.621</X>
+              <Y>1128.043</Y>
+              <Z>137.0248</Z>
+            </Point>
+          </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
 </QuesterProfile>
