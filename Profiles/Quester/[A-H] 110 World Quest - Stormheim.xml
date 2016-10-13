@@ -191,9 +191,9 @@
             <int>248054</int>
           </Entry>
           <Position>
-              <X>4359.695</X>
-              <Y>1655.477</Y>
-              <Z>4.098811</Z>
+            <X>4359.695</X>
+            <Y>1655.477</Y>
+            <Z>4.098811</Z>
           </Position>
           <WaitMs>1000</WaitMs>
         </QuestObjective>
@@ -266,6 +266,129 @@
               <Z>191.0029</Z>
             </Point> 
           </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
+    <Quest>
+      <Name>A Jarl's Feast</Name>
+      <Id>43964</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>3043.666</X>
+        <Y>2794.595</Y>
+        <Z>380.0506</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>InteractWith</Objective>
+          <InternalIndex>6</InternalIndex>
+          <Count>1</Count>
+          <Entry>
+            <int>112225</int> <!-- Fallen Jarl -->
+          </Entry>
+          <Position>
+            <X>3049.167</X>
+            <Y>2764.422</Y>
+            <Z>379.7435</Z>
+          </Position>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>InteractWith</Objective>
+          <GossipOptionsInteractWith>2</GossipOptionsInteractWith> 
+          <Entry>
+            <int>112197</int> <!-- Eric des Lanhams -->
+          </Entry>
+          <Position>
+            <X>3047.292</X>
+            <Y>2826.381</Y>
+            <Z>380.05</Z>
+          </Position>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>InteractWith</Objective>
+          <GossipOptionsInteractWith>2</GossipOptionsInteractWith> 
+          <Entry>
+            <int>112205</int> <!-- Culver le Poursuivant -->
+          </Entry>
+          <Position>
+            <X>3050.44</X>
+            <Y>2816.727</Y>
+            <Z>380.0493</Z>
+          </Position>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>InteractWith</Objective>
+          <GossipOptionsInteractWith>2</GossipOptionsInteractWith> 
+          <Entry>
+            <int>112621</int> <!-- Kvin Obren -->
+          </Entry>
+          <Position>
+            <X>3049.433</X>
+            <Y>2809.979</Y>
+            <Z>380.0496</Z>
+          </Position>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>InteractWith</Objective>
+          <GossipOptionsInteractWith>2</GossipOptionsInteractWith> 
+          <Entry>
+            <int>112127</int> <!-- Jnifer Casay -->
+          </Entry>
+          <Position>
+            <X>3053.524</X>
+            <Y>2797.445</Y>
+            <Z>380.0502</Z>
+          </Position>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>InteractWith</Objective>
+          <GossipOptionsInteractWith>2</GossipOptionsInteractWith> 
+          <Entry>
+            <int>112217</int> <!-- Letjia le Shapp -->
+          </Entry>
+          <Position>
+            <X>3032.342</X>
+            <Y>2788.761</Y>
+            <Z>380.0532</Z>
+          </Position>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>InteractWith</Objective>
+          <GossipOptionsInteractWith>2</GossipOptionsInteractWith> 
+          <Entry>
+            <int>112624</int> <!-- Shane Barbe-toile -->
+          </Entry>
+          <Position>
+            <X>3036.953</X>
+            <Y>2807.134</Y>
+            <Z>380.0498</Z>
+          </Position>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>InteractWith</Objective>
+          <GossipOptionsInteractWith>2</GossipOptionsInteractWith> 
+          <Entry>
+            <int>112211</int> <!-- Dvid Skoat -->
+          </Entry>
+          <Position>
+            <X>3039.919</X>
+            <Y>2785.6</Y>
+            <Z>380.0433</Z>
+          </Position>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>InteractWith</Objective>
+          <GossipOptionsInteractWith>2</GossipOptionsInteractWith> 
+          <Entry>
+            <int>112207</int> <!-- Joel des falaises -->
+          </Entry>
+          <Position>
+            <X>3023.063</X>
+            <Y>2775.496</Y>
+            <Z>376.7932</Z>
+          </Position>
         </QuestObjective>
       </Objectives>
     </Quest>
