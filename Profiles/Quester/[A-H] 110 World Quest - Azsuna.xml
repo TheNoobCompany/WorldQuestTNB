@@ -1425,5 +1425,60 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Disgusting, but Useful</Name>
+      <Id>42276</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation> 
+        <X>-238.0025</X>
+        <Y>7756.399</Y>
+        <Z>124.5169</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>PickUpObject</Objective>
+          <InternalIndex>2</InternalIndex>
+          <Count>10</Count>
+          <Entry>
+            <int>250267</int> <!--Felsurge Egg -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>-59.37068</X>
+              <Y>7706.978</Y>
+              <Z>108.3451</Z>
+            </Point>
+            <Point>
+              <X>-93.84476</X>
+              <Y>7543.185</Y>
+              <Z>88.41136</Z>
+            </Point>
+            <Point>
+              <X>-155.9098</X>
+              <Y>7732.436</Y>
+              <Z>109.5114</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>1</InternalIndex>
+          <CollectItemId>136838</CollectItemId> <!-- Manastalker Tendril -->
+          <CollectCount>50</CollectCount>
+          <Entry>
+            <int>107135</int> <!-- Llothien Prowler -->
+          </Entry>
+          <Hotspots> 
+            <Point> 
+              <X>-196.9421</X>
+              <Y>7949.032</Y>
+              <Z>117.2297</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
 </QuesterProfile>
