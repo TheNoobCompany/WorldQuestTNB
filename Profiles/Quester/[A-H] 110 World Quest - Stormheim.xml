@@ -540,5 +540,51 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Get Vrekt</Name>
+      <Id>41427</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>1760.994</X>
+        <Y>875.7751</Y>
+        <Z>24.38129</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Count>15</Count>
+          <Entry>
+            <int>102170</int>
+            <int>102047</int>
+            <int>102625</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>1760.994</X>
+              <Y>875.7751</Y>
+              <Z>24.38129</Z>
+            </Point>
+            <Point>
+              <X>1818.644</X>
+              <Y>748.6189</Y>
+              <Z>82.25342</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
+  <Blackspots>
+    <QuesterBlacklistRadius>
+      <!-- Required by "Get Vrekt" -->
+      <Position>
+        <X>1704.62</X>
+        <Y>622.0228</Y>
+        <Z>3.262037</Z>
+      </Position>
+      <Radius>50</Radius>
+    </QuesterBlacklistRadius>
+  </Blackspots>
 </QuesterProfile>
