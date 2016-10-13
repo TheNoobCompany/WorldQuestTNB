@@ -1480,5 +1480,71 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <!--    Work in progress
+    
+    We miss an objective or the possibility to pick up an object and use it
+    To destroy the "Kegs of Spicy Grog" we must use the additionnal action that
+    pop when pick up the object.
+    
+    <Quest>
+      <Name>Piracy Doesn't Pay</Name>
+      <Id>42623</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation> 
+        <X>-1003.95</X>
+        <Y>5865.528</Y>
+        <Z>-0.0365945</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>PickUpObject</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Count>5</Count>
+          <Entry>
+            <int>250867</int>  Kegs of Spicy Grog 
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>-1103.086</X>
+              <Y>5927.58</Y>
+              <Z>1.177605</Z>
+            </Point>
+            <Point>
+              <X>-1432.874</X>
+              <Y>5984.978</Y>
+              <Z>4.451492</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>2</InternalIndex>
+          <Count>12</Count>
+          <Entry>
+            <int>106818</int>   Dread Sharpshooter 
+            <int>108137</int>  First Mate Oxswain 
+            <int>106819</int>  Dread Harpooner 
+            <int>108139</int>  Blacksail Keelhauler 
+            <int>106820</int>  Dread Crewman 
+            <int>108133</int>  Blacksail Salvor 
+            <int>108146</int>  Blacksail Gunner 
+          </Entry>
+          <Hotspots> 
+            <Point>
+              <X>-1103.086</X>
+              <Y>5927.58</Y>
+              <Z>1.177605</Z>
+            </Point>
+            <Point>
+              <X>-1432.874</X>
+              <Y>5984.978</Y>
+              <Z>4.451492</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>-->
   </Quests>
 </QuesterProfile>
