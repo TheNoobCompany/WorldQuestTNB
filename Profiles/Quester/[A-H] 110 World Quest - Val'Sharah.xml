@@ -1153,5 +1153,39 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Rugged Wolf Hide</Name>
+      <Id>41333</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <ScriptCondition>return (Skill.GetValue(SkillLine.Skinning) > 0);</ScriptCondition>
+      <WorldQuestLocation>
+        <X>2996.085</X>
+        <Y>6941.985</Y>
+        <Z>70.54966</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>1</InternalIndex>
+          <CollectCount>8</CollectCount>
+          <Entry>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>2895.891</X>
+              <Y>6996.517</Y>
+              <Z>55.03889</Z>
+            </Point>
+            <Point>
+              <X>3035.11</X>
+              <Y>6836.322</Y>
+              <Z>104.0432</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
 </QuesterProfile>
