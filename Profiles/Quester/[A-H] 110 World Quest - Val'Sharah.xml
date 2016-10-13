@@ -1169,8 +1169,10 @@
         <QuestObjective>
           <Objective>KillMob</Objective>
           <InternalIndex>1</InternalIndex>
+          <CollectItemId>134810</CollectItemId> <!-- Rugged Wolf Hide -->
           <CollectCount>8</CollectCount>
           <Entry>
+            <int>100409</int> <!-- Rugged Wolf -->
           </Entry>
           <Hotspots>
             <Point>
