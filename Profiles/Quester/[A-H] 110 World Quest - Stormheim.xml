@@ -392,5 +392,81 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <!-- Work in progress
+    
+    This WQ works well but the bot is unable to leave the garrison after
+    completion
+    
+    <Quest>
+      <Name>An Overdue Debt</Name>
+      <Id>43951</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>2678.661</X>
+        <Y>2560.874</Y>
+        <Z>220.5611</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>MoveTo</Objective>
+          <Position>
+            <X>2682.081</X>
+            <Y>2592.074</Y>
+            <Z>230.8913</Z>
+          </Position>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PickUpNPC</Objective>
+          <Count>1</Count>
+          <Entry>
+            <int>91975</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>2682.081</X>
+              <Y>2592.074</Y>
+              <Z>230.8913</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PickUpObject</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Count>6</Count>
+          <Entry>
+            <int>247985</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>2434.437</X>
+              <Y>2405.968</Y>
+              <Z>256.4824</Z>
+            </Point>
+            <Point>
+              <X>2659.703</X>
+              <Y>2470.158</Y>
+              <Z>218.5723</Z>
+            </Point>
+            <Point>
+              <X>2552.181</X>
+              <Y>2572.195</Y>
+              <Z>240.3335</Z>
+            </Point>
+            <Point>
+              <X>2449.99</X>
+              <Y>2572.061</Y>
+              <Z>291.3524</Z>
+            </Point>
+            <Point>
+              <X>2512.862</X>
+              <Y>2685.238</Y>
+              <Z>290.9856</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>-->
   </Quests>
 </QuesterProfile>
