@@ -440,9 +440,9 @@
             <int>248054</int>
           </Entry>
           <Position>
-              <X>-1282.235</X>
-              <Y>7087.083</Y>
-              <Z>37.25912</Z>
+            <X>-1282.235</X>
+            <Y>7087.083</Y>
+            <Z>37.25912</Z>
           </Position>
           <WaitMs>1000</WaitMs>
         </QuestObjective>
@@ -492,9 +492,9 @@
             <int>248054</int>
           </Entry>
           <Position>
-              <X>-748.1087</X>
-              <Y>7863.687</Y>
-              <Z>16.49545</Z>
+            <X>-748.1087</X>
+            <Y>7863.687</Y>
+            <Z>16.49545</Z>
           </Position>
           <WaitMs>1000</WaitMs>
         </QuestObjective>
@@ -1372,6 +1372,56 @@
             </Point>
           </Hotspots>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
+    <Quest>
+      <Name>Reclaiming Llothien</Name>
+      <Id>42123</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation> 
+        <X>546.7273</X>
+        <Y>6302.34</Y>
+        <Z>39.2565</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>2</InternalIndex>
+          <Count>1</Count>
+          <Entry>
+            <int>90901</int> <!-- Pridelord Meowl -->
+          </Entry>
+          <Hotspots> 
+            <Point> 
+              <X>526.6806</X>
+              <Y>6155.048</Y>
+              <Z>40.56704</Z>
+            </Point>
+          </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Count>10</Count>
+          <Entry>
+            <int>90313</int> <!-- Llothien Prowler -->
+          </Entry>
+          <Hotspots> 
+            <Point> 
+              <X>561.0834</X>
+              <Y>6278.852</Y>
+              <Z>38.99671</Z>
+            </Point>
+            <Point> 
+              <X>455.0004</X>
+              <Y>6180.326</Y>
+              <Z>39.58926</Z>
+            </Point>
+          </Hotspots>
         </QuestObjective>
       </Objectives>
     </Quest>
