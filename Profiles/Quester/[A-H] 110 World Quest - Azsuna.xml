@@ -1645,5 +1645,35 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>WANTED: Arcavellus</Name>
+      <Id>42620</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation> 
+        <X>1258.869</X>
+        <Y>5896.356</Y>
+        <Z>14.80513</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Count>15</Count>
+          <Entry>
+            <int>90242</int>
+            <int>90243</int>
+            <int>90244</int>
+          </Entry>
+          <Hotspots>
+            <Point> 
+              <X>1258.869</X>
+              <Y>5896.356</Y>
+              <Z>14.80513</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
 </QuesterProfile>
