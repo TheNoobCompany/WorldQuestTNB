@@ -237,5 +237,77 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <!-- Work in progress
+    
+    This WQ works but we need to have the possibility to repeat the action
+    multiple time.
+    
+    <Quest>
+      <Name>Clear the Skies</Name>
+      <Id>42151</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>1074.476</X>
+        <Y>4860.718</Y>
+        <Z>55.89024</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <CollectCount>1</CollectCount>
+          <CollectItemId>141022</CollectItemId>
+          <Entry>
+            <int>106339</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>1074.476</X>
+              <Y>4860.718</Y>
+              <Z>55.89024</Z>
+            </Point>
+            <Point>
+              <X>984.9357</X>
+              <Y>4821.264</Y>
+              <Z>34.68665</Z>
+            </Point>
+            <Point>
+              <X>870.1873</X>
+              <Y>4809.28</Y>
+              <Z>35.58949</Z>
+            </Point>
+            <Point>
+              <X>1201.57</X>
+              <Y>5072.124</Y>
+              <Z>56.95424</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>InteractWith</Objective>
+          <Count>1</Count>
+          <Entry>
+            <int>98862</int>
+          </Entry>
+          <Position>
+            <X>560.4471</X>
+            <Y>4956.52</Y>
+            <Z>-64.01248</Z>
+          </Position>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PressKey</Objective>
+          <OnlyInVehicule>true</OnlyInVehicule>
+          <Count>600</Count>  This equals to 1 minute
+          <Keys>ACTIONBUTTON1</Keys>
+          <WaitMs>100</WaitMs>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>EjectVehicle</Objective>
+          <OnlyInVehicule>true</OnlyInVehicule>
+        </QuestObjective>
+      </Objectives>
+    </Quest>-->
   </Quests>
 </QuesterProfile>
