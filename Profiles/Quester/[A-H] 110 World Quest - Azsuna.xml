@@ -1546,5 +1546,46 @@
         </QuestObjective>
       </Objectives>
     </Quest>-->
+    <Quest>
+      <Name>The Broken Academy</Name>
+      <Id>42022</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>-80.11475</X> 
+        <Y>6220.521</Y>
+        <Z>2.3686</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Count>25</Count>
+          <Entry>
+            <int>88086</int>
+            <int>88087</int>
+            <int>107447</int>
+            <int>91459</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>-80.11475</X>
+              <Y>6220.521</Y>
+              <Z>2.3686</Z>
+            </Point>
+            <Point>
+              <X>-193.1335</X>
+              <Y>6129.032</Y>
+              <Z>41.13223</Z>
+            </Point>
+            <Point>
+              <X>-149.5609</X>
+              <Y>6279.979</Y>
+              <Z>6.223576</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
 </QuesterProfile>
