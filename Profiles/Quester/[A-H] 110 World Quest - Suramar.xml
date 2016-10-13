@@ -198,5 +198,44 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Aggressive Reconnaisance</Name>
+      <Id>42111</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>518.8154</X>
+        <Y>5022.923</Y>
+        <Z>-85.37335</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>4</InternalIndex>
+          <Count>15</Count>
+          <Entry>
+            <int>99581</int>
+            <int>101878</int>
+            <int>99584</int>
+            <int>106339</int>
+            <int>99765</int>
+            <int>99762</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>433.1368</X>
+              <Y>5061.237</Y>
+              <Z>-89.58867</Z>
+            </Point>
+            <Point>
+              <X>248.3786</X>
+              <Y>5073.029</Y>
+              <Z>-86.47398</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
 </QuesterProfile>
