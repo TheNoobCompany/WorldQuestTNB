@@ -1311,4 +1311,14 @@
       </Objectives>
     </Quest>
   </Quests>
+  <Blackspots>
+    <QuesterBlacklistRadius>
+	  <Position>
+        <X>2320.118</X>
+        <Y>6611.802</Y>
+        <Z>149.2142</Z>
+      </Position>
+      <Radius>15</Radius>
+    </QuesterBlacklistRadius>
+  </Blackspots>
 </QuesterProfile>
