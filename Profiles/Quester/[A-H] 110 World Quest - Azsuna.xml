@@ -353,11 +353,27 @@
               <Z>109.5427</Z>
             </Point>
             <Point>
-              <X>-558.3825</X>
-              <Y>7718.653</Y>
-              <Z>140.4649</Z>
+              <X>-534.989</X>
+              <Y>7705.271</Y>
+              <Z>140.7738</Z>
+            </Point>
+            <Point>
+              <X>-469.475</X>
+              <Y>7714.571</Y>
+              <Z>109.5796</Z>
+            </Point>
+            <Point> 
+              <X>-512.5432</X>
+              <Y>7596.289</Y>
+              <Z>114.2596</Z>
+            </Point>
+            <Point>
+              <X>-670.8541</X>
+              <Y>7706.728</Y>
+              <Z>109.0289</Z>
             </Point>
           </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
       </Objectives>
     </Quest>
@@ -1676,4 +1692,15 @@
       </Objectives>
     </Quest>
   </Quests>
+  <Blackspots>
+    <QuesterBlacklistRadius>
+      <!-- Prevent falling in lava for "Not On My Watch" -->
+      <Position>
+        <X>-594.5076</X>
+        <Y>7617.877</Y>
+        <Z>107.4108</Z>
+      </Position>
+      <Radius>20</Radius>
+    </QuesterBlacklistRadius>
+  </Blackspots>
 </QuesterProfile>
