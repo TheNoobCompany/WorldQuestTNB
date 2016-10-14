@@ -666,6 +666,40 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Vampirates!</Name>
+      <Id>43963</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>3056.036</X>
+        <Y>844.8805</Y>
+        <Z>17.13277</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <CollectItemId>140277</CollectItemId>
+          <CollectCount>10</CollectCount>
+          <Entry>
+            <int>108030</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>3056.036</X>
+              <Y>844.8805</Y>
+              <Z>17.13277</Z>
+            </Point>
+            <Point>
+              <X>3055.593</X>
+              <Y>721.3754</Y>
+              <Z>9.685531</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
   <Blackspots>
     <QuesterBlacklistRadius>
