@@ -1060,6 +1060,87 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Shipwreck Scavengers</Name>
+      <Id>41692</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>6563.396</X>
+        <Y>4683.348</Y>
+        <Z>0.6074206</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>5</InternalIndex>
+          <Count>1</Count>
+          <Entry>
+            <int>98311</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>6625.605</X>
+              <Y>4387.416</Y>
+              <Z>8.3014</Z>
+            </Point>
+          </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PickUpObject</Objective>
+          <InternalIndex>4</InternalIndex>
+          <Count>5</Count>
+          <Entry>
+            <int>248401</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>6652.766</X>
+              <Y>4365.104</Y>
+              <Z>15.22889</Z>
+            </Point>
+            <Point>
+              <X>6559.314</X>
+              <Y>4578.625</Y>
+              <Z>0.4548099</Z>
+            </Point>
+            <Point>
+              <X>6509.905</X>
+              <Y>4407.496</Y>
+              <Z>0.4001828</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>2</InternalIndex>
+          <Count>10</Count>
+          <Entry>
+            <int>97919</int>
+            <int>97920</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>6559.314</X>
+              <Y>4578.625</Y>
+              <Z>0.4548099</Z>
+            </Point>
+            <Point>
+              <X>6509.905</X>
+              <Y>4407.496</Y>
+              <Z>0.4001828</Z>
+            </Point>
+            <Point>
+              <X>6529.444</X>
+              <Y>4640.206</Y>
+              <Z>0.366854</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
   <Blackspots>
     <QuesterBlacklistRadius>
