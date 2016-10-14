@@ -369,7 +369,7 @@
       </WorldQuestLocation>
       <Objectives>
         <QuestObjective>
-          <Objective>KillMob</Objective>
+          <Objective>PickUpNPC</Objective>
           <InternalIndex>1</InternalIndex>
           <Count>12</Count>
           <Entry>
