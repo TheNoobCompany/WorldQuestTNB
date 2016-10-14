@@ -1310,10 +1310,74 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Coastal Gloom</Name>
+      <Id>43738</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>2703.323</X>
+        <Y>7747.784</Y>
+        <Z>4.23303</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>5</InternalIndex>
+          <Count>24</Count>
+          <Entry>
+            <int>111384</int> <!-- Gloomscale Egg -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>2671.621</X>
+              <Y>7685.667</Y>
+              <Z>-0.3923402</Z>
+            </Point>
+            <Point>
+              <X>2756.402</X>
+              <Y>7806.29</Y>
+              <Z>1.016302</Z>
+            </Point>
+            <Point>
+              <X>2622.416</X>
+              <Y>7751.697</Y>
+              <Z>2.712769</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>4</InternalIndex>
+          <Count>8</Count>
+          <Entry>
+            <int>111383</int> <!--  Lytheron Gloomscale -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>2671.621</X>
+              <Y>7685.667</Y>
+              <Z>-0.3923402</Z>
+            </Point>
+            <Point>
+              <X>2756.402</X>
+              <Y>7806.29</Y>
+              <Z>1.016302</Z>
+            </Point>
+            <Point>
+              <X>2622.416</X>
+              <Y>7751.697</Y>
+              <Z>2.712769</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
   <Blackspots>
     <QuesterBlacklistRadius>
-	  <Position>
+      <Position>
         <X>2320.118</X>
         <Y>6611.802</Y>
         <Z>149.2142</Z>
