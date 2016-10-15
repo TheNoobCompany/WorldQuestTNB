@@ -79,8 +79,27 @@
       <Objectives>
         <QuestObjective>
           <Objective>UseActionButtonOnUnit</Objective>
-          <InternalIndex>4</InternalIndex>
-          <Count>10</Count>
+          <Entry>
+            <int>98555</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>1463.781</X>
+              <Y>4738.764</Y>
+              <Z>142.5489</Z>
+            </Point>
+            <Point>
+              <X>1384.896</X>
+              <Y>4687.977</Y>
+              <Z>129.7561</Z>
+            </Point>
+          </Hotspots>
+          <WaitMs>100</WaitMs>
+          <UseSpellId>224553</UseSpellId>
+          <Range>30</Range>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>UseSpellAOE</Objective>
           <Entry>
             <int>98555</int>
           </Entry>
