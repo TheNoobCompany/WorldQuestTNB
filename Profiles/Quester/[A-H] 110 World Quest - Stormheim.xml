@@ -754,6 +754,52 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>The Helmouth</Name>
+      <Id>42013</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>3478.93</X>
+        <Y>1806.545</Y>
+        <Z>2.295597</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Count>15</Count>
+          <Entry>
+            <int>105746</int>
+            <int>105748</int>
+            <int>105750</int>
+            <int>105532</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>3478.93</X>
+              <Y>1806.545</Y>
+              <Z>2.295597</Z>
+            </Point>
+            <Point>
+              <X>3459.259</X>
+              <Y>1690.487</Y>
+              <Z>-0.2858212</Z>
+            </Point>
+            <Point>
+              <X>3341.214</X>
+              <Y>1780.493</Y>
+              <Z>-0.03670992</Z>
+            </Point>
+            <Point>
+              <X>3471.578</X>
+              <Y>1890.11</Y>
+              <Z>0.1527261</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
   <Blackspots>
     <QuesterBlacklistRadius>
