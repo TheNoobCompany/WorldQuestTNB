@@ -1500,5 +1500,14 @@
       </Position>
       <Radius>15</Radius>
     </QuesterBlacklistRadius>
+    <QuesterBlacklistRadius>
+      <!-- Required by "Rugged Wolf Hide" -->
+      <Position>
+        <X>3012.18</X>
+        <Y>6774.956</Y>
+        <Z>126.4219</Z>
+      </Position>
+      <Radius>20</Radius>
+    </QuesterBlacklistRadius>
   </Blackspots>
 </QuesterProfile>
