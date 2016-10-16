@@ -275,6 +275,7 @@
       <Objectives>
         <QuestObjective>
           <Objective>KillMob</Objective>
+          <OnlyOutVehicule>true</OnlyOutVehicule>
           <CollectCount>1</CollectCount>
           <CollectItemId>141022</CollectItemId>
           <Entry>
@@ -305,6 +306,7 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>InteractWith</Objective>
+          <OnlyOutVehicule>true</OnlyOutVehicule>
           <Count>1</Count>
           <Entry>
             <int>98862</int>
@@ -318,14 +320,13 @@
         <QuestObjective>
           <Objective>PressKey</Objective>
           <OnlyInVehicule>true</OnlyInVehicule>
-          <Count>600</Count>  This equals to 1 minute
           <Keys>ACTIONBUTTON1</Keys>
           <WaitMs>100</WaitMs>
         </QuestObjective>
-        <QuestObjective>
+        <FinalQuestObjective>
           <Objective>EjectVehicle</Objective>
           <OnlyInVehicule>true</OnlyInVehicule>
-        </QuestObjective>
+        </FinalQuestObjective>
       </Objectives>
     </Quest>-->
     <Quest>
