@@ -829,8 +829,83 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Valor Calls</Name>
+      <Id>41930</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>2705.562</X>
+        <Y>1164.269</Y>
+        <Z>198.1299</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Count>35</Count>
+          <Entry>
+            <int>95620</int>
+            <int>97816</int>
+            <int>97821</int>
+            <int>97851</int>
+            <int>97906</int>
+            <int>97825</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>2595.171</X>
+              <Y>1109.412</Y>
+              <Z>205.8004</Z>
+            </Point>
+            <Point>
+              <X>2693.492</X>
+              <Y>1074.929</Y>
+              <Z>198.2827</Z>
+            </Point>
+            <Point>
+              <X>2691.521</X>
+              <Y>955.8785</Y>
+              <Z>205.7981</Z>
+            </Point>
+            <Point>
+              <X>2627.713</X>
+              <Y>1164.934</Y>
+              <Z>197.7728</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
   <Blackspots>
+    <QuesterBlacklistRadius>
+      <!-- Required by "Valor Calls" -->
+      <Position>
+        <X>2551.085</X>
+        <Y>1148.723</Y>
+        <Z>205.8021</Z>
+      </Position>
+      <Radius>20</Radius>
+    </QuesterBlacklistRadius>
+    <QuesterBlacklistRadius>
+      <!-- Required by "Valor Calls" -->
+      <Position>
+        <X>2675.327</X>
+        <Y>911.0438</Y>
+        <Z>205.8318</Z>
+      </Position>
+      <Radius>20</Radius>
+    </QuesterBlacklistRadius>
+    <QuesterBlacklistRadius>
+      <!-- Required by "Valor Calls" -->
+      <Position>
+        <X>2520.672</X>
+        <Y>1082.773</Y>
+        <Z>216.6867</Z>
+      </Position>
+      <Radius>20</Radius>
+    </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <!-- Required by "Get Vrekt" -->
       <Position>
