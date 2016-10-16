@@ -79,6 +79,7 @@
       <Objectives>
         <QuestObjective>
           <Objective>UseActionButtonOnUnit</Objective>
+          <IgnoreFight>true</IgnoreFight>
           <Entry>
             <int>98555</int>
           </Entry>
@@ -100,6 +101,7 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>UseSpellAOE</Objective>
+          <IgnoreFight>true</IgnoreFight>
           <Entry>
             <int>98555</int>
           </Entry>
@@ -115,7 +117,7 @@
               <Z>129.7561</Z>
             </Point>
           </Hotspots>
-          <WaitMs>4000</WaitMs>
+          <WaitMs>12000</WaitMs>
           <UseSpellId>224553</UseSpellId>
           <Range>30</Range>
         </QuestObjective>
