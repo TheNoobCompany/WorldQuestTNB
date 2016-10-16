@@ -1873,7 +1873,7 @@
         </QuestObjective>
       </Objectives>
     </Quest>
-    <Quest>
+<!--    <Quest>
       <Name>Ley Race</Name>
       <Id>43325</Id>
       <QuestLevel>110</QuestLevel>
@@ -1903,7 +1903,7 @@
           <IgnoreFight>true</IgnoreFight>
           <OnlyInVehicule>true</OnlyInVehicule>
           <Entry>
-            <int>97345</int> <!-- An random NPC that will never be here -->
+            <int>97345</int>  An random NPC that will never be here 
           </Entry>
           <Hotspots>
             <Point> 
@@ -2034,7 +2034,7 @@
           </Hotspots>
         </QuestObjective>
       </Objectives>
-    </Quest>
+    </Quest>-->
     <Quest>
       <Name>Operation Murloc Freedom</Name>
       <Id>41896</Id>
