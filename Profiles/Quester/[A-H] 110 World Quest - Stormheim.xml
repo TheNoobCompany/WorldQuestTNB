@@ -89,10 +89,10 @@
         <QuestObjective>
           <!-- To prevent bot targeting boss and being killed by mobs -->
           <Objective>MoveTo</Objective>
-          <Position> 
-            <X>1585.222</X>
-            <Y>1417.613</Y>
-            <Z>88.8218</Z>
+          <Position>  
+            <X>1542.551</X>
+            <Y>1423.338</Y>
+            <Z>171.32</Z>
           </Position>
         </QuestObjective>
         <QuestObjective>
