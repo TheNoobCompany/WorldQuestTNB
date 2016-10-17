@@ -1710,6 +1710,34 @@
         </QuestObjective>
       </Objectives>
     </Quest>-->
+    <Quest>
+      <Name>Felwort</Name>
+      <Id>41516</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>2350.372</X>
+        <Y>7953.205</Y>
+        <Z>10.5512</Z>
+      </WorldQuestLocation>
+      <ScriptCondition>return (Skill.GetValue(SkillLine.Herbalism) > 0);</ScriptCondition>
+      <Objectives>
+        <QuestObjective>
+          <Objective>InteractWith</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Count>1</Count>
+          <Entry>
+            <int>248004</int> <!-- Felwort -->
+          </Entry>
+          <Position>
+            <X>2350.372</X>
+            <Y>7953.205</Y>
+            <Z>10.5512</Z>
+          </Position>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
   <Blackspots>
     <QuesterBlacklistRadius>
