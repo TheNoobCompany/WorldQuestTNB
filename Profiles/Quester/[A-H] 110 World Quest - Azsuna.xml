@@ -1718,6 +1718,7 @@
               <Z>14.80513</Z>
             </Point>
           </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
       </Objectives>
     </Quest>
@@ -1748,6 +1749,7 @@
               <Z>14.80513</Z>
             </Point>
           </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
       </Objectives>
     </Quest>
