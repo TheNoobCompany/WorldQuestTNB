@@ -986,6 +986,80 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Warden Tower Assault: Whisperwind's Citadel</Name>
+      <Id>43601</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>4268.861</X>
+        <Y>2212.427</Y>
+        <Z>159.2958</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <!-- To prevent bot targeting boss and being killed by mobs -->
+          <Objective>MoveTo</Objective>
+          <Position> 
+            <X>4397.768</X>
+            <Y>2226.256</Y>
+            <Z>240.5018</Z>
+          </Position>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>2</InternalIndex>
+          <Count>1</Count> 
+          <Entry>
+            <int>103757</int> <!-- Magus Bonechill -->
+            <int>104289</int> <!-- Dark Ranger Alina -->
+            <int>104290</int> <!-- Captain Grimshanks -->
+          </Entry>
+          <Hotspots>
+            <Point> 
+              <X>4390.344</X>
+              <Y>2187.702</Y>
+              <Z>240.5168</Z>
+            </Point> 
+          </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Count>15</Count> 
+          <Entry>
+            <int>103210</int> <!-- Forsaken Defender -->
+            <int>103245</int> <!-- Forsaken Befouler -->
+            <int>103446</int> <!-- Forsaken Frostflinger -->
+            <int>103215</int> <!-- Forsaken Deathwarder -->
+            <int>103307</int> <!-- Forsaken Plaguebringer -->
+            <int>103449</int> <!-- Forsaken Coldwitch -->
+            <int>103729</int> <!-- Forsaken Archer -->
+            <int>103218</int> <!-- Forsaken Deceiver -->
+            <int>103430</int> <!-- Festering Abomination -->
+            <int>103453</int> <!-- Forsaken Rector -->
+            <int>103745</int> <!-- Forsaken Dark Ranger -->
+            <int>103222</int> <!-- Forsaken Shadowblade -->
+            <int>103431</int> <!-- Sninkwind Hulk -->
+            <int>103457</int> <!-- Forsaken Bishop -->
+          </Entry>
+          <Hotspots>
+            <Point> 
+              <X>4286.628</X>
+              <Y>2258.83</Y>
+              <Z>151.3959</Z>
+            </Point>
+            <Point>
+              <X>4273.759</X>
+              <Y>2171.839</Y>
+              <Z>154.1335</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
   <Blackspots>
     <QuesterBlacklistRadius>
