@@ -2117,7 +2117,7 @@
         </QuestObjective>
       </Objectives>
     </Quest>
-    <Quest>
+<!--    <Quest>
       <Name>Investigation at Mak'rana</Name>
       <Id>42021</Id>
       <QuestLevel>110</QuestLevel>
@@ -2129,35 +2129,6 @@
         <Z>-0.7201907</Z>
       </WorldQuestLocation>
       <Objectives>
-        <QuestObjective>
-          <Objective>KillMob</Objective>
-          <Count>4</Count>
-          <Entry>
-            <int>89290</int>
-          </Entry>
-          <Hotspots>
-            <Point> 
-              <X>-799.1843</X>
-              <Y>5979.224</Y>
-              <Z>-0.7201907</Z>
-            </Point>
-            <Point>
-              <X>-862.3048</X>
-              <Y>5801.287</Y>
-              <Z>-0.03436192</Z>
-            </Point>
-            <Point>
-              <X>-753.3561</X>
-              <Y>5652.291</Y>
-              <Z>8.471759</Z>
-            </Point>
-            <Point> 
-              <X>-714.517</X>
-              <Y>5812.633</Y>
-              <Z>3.430294</Z>
-            </Point>
-          </Hotspots>
-        </QuestObjective>
         <QuestObjective>
           <Objective>KillMob</Objective>
           <InternalIndex>1</InternalIndex>
@@ -2220,6 +2191,43 @@
           </Hotspots>
         </QuestObjective>
         <QuestObjective>
+          <Objective>PickUpNPC</Objective>
+          <Count>4</Count>
+          <Entry>
+            <int>89290</int>
+          </Entry>
+          <Hotspots>
+            <Point> 
+              <X>-799.1843</X>
+              <Y>5979.224</Y>
+              <Z>-0.7201907</Z>
+            </Point>
+            <Point>
+              <X>-862.3048</X>
+              <Y>5801.287</Y>
+              <Z>-0.03436192</Z>
+            </Point>
+            <Point>
+              <X>-753.3561</X>
+              <Y>5652.291</Y>
+              <Z>8.471759</Z>
+            </Point>
+            <Point> 
+              <X>-714.517</X>
+              <Y>5812.633</Y>
+              <Z>3.430294</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>MoveTo</Objective>
+          <Position> 
+            <X>-974.793</X>
+            <Y>5628.311</Y>
+            <Z>4.262432</Z>
+          </Position>
+        </QuestObjective>
+        <QuestObjective>
           <Objective>KillMob</Objective>
           <Count>1</Count>
           <Entry>
@@ -2234,7 +2242,7 @@
           </Hotspots>
         </QuestObjective>
       </Objectives>
-    </Quest>
+    </Quest>-->
     <Quest>
       <Name>Rally the Nightwatchers</Name>
       <Id>42108</Id>
