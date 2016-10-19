@@ -1114,7 +1114,7 @@
           </Hotspots>
           <WaitMs>4000</WaitMs>
           <UseSpellId>186052</UseSpellId>
-          <Range>60</Range>
+          <Range>50</Range>
         </QuestObjective>
         <QuestObjective>
           <Objective>KillMob</Objective>
