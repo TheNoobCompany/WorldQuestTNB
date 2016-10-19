@@ -914,6 +914,7 @@
               <Z>121.8113</Z>
             </Point>
           </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
       </Objectives>
     </Quest>
