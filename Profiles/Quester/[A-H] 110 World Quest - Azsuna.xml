@@ -1148,6 +1148,48 @@
       </Objectives>
     </Quest>
     <Quest>
+      <Name>WANTED: Doomlord Kazrok</Name>
+      <Id>43428</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>568.1667</X>
+        <Y>6988.304</Y>
+        <Z>179.033</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>InteractWith</Objective>
+          <Entry>
+            <int>91580</int> <!-- Tehd Shoemaker -->
+          </Entry> 
+          <GossipOptionsInteractWith>1</GossipOptionsInteractWith> 
+          <Position>
+            <X>561.8281</X>
+            <Y>6983.585</Y>
+            <Z>178.9137</Z>
+          </Position>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Count>1</Count>
+          <Entry>
+            <int>91579</int> <!-- Doomlord Kazrok -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>568.1667</X>
+              <Y>6988.304</Y>
+              <Z>179.033</Z>
+            </Point>
+          </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
+    <Quest>
       <Name>Mixology Mix-up</Name>
       <Id>42105</Id>
       <QuestLevel>110</QuestLevel>
