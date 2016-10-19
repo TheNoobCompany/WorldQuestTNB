@@ -1464,6 +1464,35 @@
       </Objectives>
     </Quest>
     <Quest>
+      <Name>WANTED: Inquisitor Tivos</Name>
+      <Id>42631</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation> 
+        <X>-473.2882</X>
+        <Y>7971.741</Y>
+        <Z>329.3157</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Count>1</Count>
+          <Entry>
+            <int>107269</int>
+          </Entry>
+          <Hotspots> 
+            <Point> 
+              <X>-457.2441</X>
+              <Y>7986.58</Y>
+              <Z>301.2399</Z>
+            </Point>
+          </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
+    <Quest>
       <Name>Reclaiming Llothien</Name>
       <Id>42123</Id>
       <QuestLevel>110</QuestLevel>
