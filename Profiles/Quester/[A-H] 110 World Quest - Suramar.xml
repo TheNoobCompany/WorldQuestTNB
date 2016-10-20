@@ -455,6 +455,82 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+  <!--    
+      This quest works but TNB is attacking non-attackable NPC.
+    <Quest>
+      <Name>Undersea Survey</Name>
+      <Id>44002</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>1373.331</X>
+        <Y>2624.913</Y>
+        <Z>-1.75868</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>PickUpObject</Objective>
+          <InternalIndex>3</InternalIndex>
+          <CollectCount>1</CollectCount>
+          <Entry>
+            <int>253087</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>1350.995</X>
+              <Y>2524.508</Y>
+              <Z>-110.9164</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PickUpObject</Objective>
+          <InternalIndex>2</InternalIndex>
+          <CollectCount>1</CollectCount>
+          <Entry>
+            <int>253085</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>1376.252</X>
+              <Y>2293.714</Y>
+              <Z>-89.88141</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PickUpObject</Objective>
+          <InternalIndex>4</InternalIndex>
+          <CollectCount>1</CollectCount>
+          <Entry>
+            <int>253086</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>1112.106</X>
+              <Y>2240.759</Y>
+              <Z>-139.4343</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PickUpObject</Objective>
+          <InternalIndex>1</InternalIndex>
+          <CollectCount>1</CollectCount>
+          <Entry>
+            <int>253088</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>835.3206</X>
+              <Y>2193.861</Y>
+              <Z>-104.123</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>-->
   </Quests>
   <Blackspots>
     <QuesterBlacklistRadius>
