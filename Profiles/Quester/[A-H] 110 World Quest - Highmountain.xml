@@ -1277,6 +1277,48 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Calcified Wormscales</Name>
+      <Id>41238</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>4255.277</X>
+        <Y>4667.257</Y>
+        <Z>648.7774</Z>
+      </WorldQuestLocation>
+      <ScriptCondition>return (Skill.GetValue(SkillLine.Skinning) > 0);</ScriptCondition>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>1</InternalIndex>
+          <CollectItemId>134132</CollectItemId> 
+          <CollectCount>8</CollectCount>
+          <Entry>
+            <int>94687</int>
+            <int>94691</int>
+          </Entry>
+          <Hotspots>
+            <Point>  
+              <X>4311.061</X>
+              <Y>4649.976</Y>
+              <Z>648.9752</Z>
+            </Point>
+            <Point> 
+              <X>4176.642</X>
+              <Y>4599.277</Y>
+              <Z>655.556</Z>
+            </Point>
+            <Point>
+              <X>4238.866</X>
+              <Y>4683.889</Y>
+              <Z>647.7641</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
   <Blackspots>
     <QuesterBlacklistRadius>
