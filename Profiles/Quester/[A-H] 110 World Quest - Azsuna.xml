@@ -2418,6 +2418,35 @@
       </Objectives>
     </Quest>
     <Quest>
+      <Name>WANTED: Normantis the Deposed</Name>
+      <Id>43612</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation> 
+        <X>1464.427</X>
+        <Y>6530.372</Y>
+        <Z>4.956631</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Count>1</Count>
+          <Entry>
+            <int>90217</int>
+          </Entry>
+          <Hotspots> 
+            <Point> 
+              <X>1447.938</X>
+              <Y>6551.633</Y>
+              <Z>3.502647</Z>
+            </Point>
+          </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
+    <Quest>
       <Name>Slab of Bacon</Name>
       <Id>41552</Id>
       <QuestLevel>110</QuestLevel>
