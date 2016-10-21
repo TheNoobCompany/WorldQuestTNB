@@ -1151,6 +1151,83 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    
+    <Quest>
+      <Name>Returning Champion</Name>
+      <Id>41926</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>3406.327</X>
+        <Y>2481.677</Y>
+        <Z>257.5886</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Count>3</Count>
+          <Entry>
+            <int>96229</int>
+            <int>100435</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>3329.223</X>
+              <Y>2521.359</Y>
+              <Z>269.3163</Z>
+            </Point>
+            <Point>
+              <X>3458.923</X>
+              <Y>2525.039</Y>
+              <Z>274.0284</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>3</InternalIndex>
+          <Count>3</Count>
+          <Entry>
+            <int>96236</int>
+            <int>100433</int>
+            <int>90747</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>3566.469</X>
+              <Y>2510.235</Y>
+              <Z>278.4263</Z>
+            </Point>
+            <Point>
+              <X>3601.796</X>
+              <Y>2363.537</Y>
+              <Z>287.5177</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Count>3</Count>
+          <Entry>
+            <int>96129</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>3341.624</X>
+              <Y>2411.71</Y>
+              <Z>242.5323</Z>
+            </Point>
+            <Point>
+              <X>3316.435</X>
+              <Y>2350.38</Y>
+              <Z>255.077</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
   <Blackspots>
     <QuesterBlacklistRadius>
