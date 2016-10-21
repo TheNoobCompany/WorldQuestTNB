@@ -1061,6 +1061,58 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Fel Hide</Name>
+      <Id>41570</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <ScriptCondition>return (Skill.GetValue(SkillLine.Skinning) > 0);</ScriptCondition>
+      <WorldQuestLocation>
+              <X>3016.831</X>
+              <Y>3147.138</Y>
+              <Z>411.4382</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Count>1</Count> 
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+          <Entry>
+            <int>103675</int> <!-- Felhide Gargantuan -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>3016.831</X>
+              <Y>3147.138</Y>
+              <Z>411.4382</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>InteractWith</Objective>
+          <Count>1</Count>
+          <Entry>
+            <!-- Felhide Gargantuan -->
+            <int>247422</int>
+            <int>248042</int>
+            <int>248045</int>
+            <int>248047</int>
+            <int>248049</int>
+            <int>248050</int>
+            <int>248051</int>
+            <int>248053</int>
+            <int>248054</int>
+          </Entry>
+          <Position>
+            <X>3021.76</X>
+            <Y>3170.25</Y>
+            <Z>411.2813</Z>
+          </Position>
+          <WaitMs>2000</WaitMs>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
   <Blackspots>
     <QuesterBlacklistRadius>
