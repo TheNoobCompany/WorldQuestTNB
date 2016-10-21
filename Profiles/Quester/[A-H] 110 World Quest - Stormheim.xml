@@ -1069,9 +1069,9 @@
       <MaxLevel>110</MaxLevel>
       <ScriptCondition>return (Skill.GetValue(SkillLine.Skinning) > 0);</ScriptCondition>
       <WorldQuestLocation>
-              <X>3016.831</X>
-              <Y>3147.138</Y>
-              <Z>411.4382</Z>
+        <X>3016.831</X>
+        <Y>3147.138</Y>
+        <Z>411.4382</Z>
       </WorldQuestLocation>
       <Objectives>
         <QuestObjective>
@@ -1110,6 +1110,44 @@
             <Z>411.2813</Z>
           </Position>
           <WaitMs>2000</WaitMs>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
+    <Quest>
+      <Name>Dark Runes</Name>
+      <Id>43710</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>3489.058</X>
+        <Y>965.7557</Y>
+        <Z>96.13737</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>PickUpObject</Objective>
+          <CollectCount>12</CollectCount>
+          <Entry>
+            <int>252394</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>3489.058</X>
+              <Y>965.7557</Y>
+              <Z>96.13737</Z>
+            </Point>
+            <Point>
+              <X>3524.632</X>
+              <Y>891.2079</Y>
+              <Z>52.50525</Z>
+            </Point>
+            <Point>
+              <X>3613.964</X>
+              <Y>809.8651</Y>
+              <Z>38.60263</Z>
+            </Point>
+          </Hotspots>
         </QuestObjective>
       </Objectives>
     </Quest>
