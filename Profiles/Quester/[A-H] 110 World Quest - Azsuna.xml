@@ -2588,6 +2588,61 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Fatty Lion Seal Skin</Name>
+      <Id>41323</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <ScriptCondition>return (Skill.GetValue(SkillLine.Skinning) > 0);</ScriptCondition>
+      <WorldQuestLocation>
+        <X>351.7706</X>
+        <Y>7881.979</Y>
+        <Z>5.219042</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <CollectItemId>134807</CollectItemId>
+          <CollectCount>8</CollectCount>
+          <Entry>
+            <int>89013</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>351.7706</X>
+              <Y>7881.979</Y>
+              <Z>5.219042</Z>
+            </Point>
+            <Point>
+              <X>351.9298</X>
+              <Y>7786.875</Y>
+              <Z>0.6279621</Z>
+            </Point>
+            <Point>
+              <X>659.6592</X>
+              <Y>7800.136</Y>
+              <Z>32.03559</Z>
+            </Point>
+            <Point>
+              <X>632.3192</X>
+              <Y>7640.444</Y>
+              <Z>0.3955695</Z>
+            </Point>
+            <Point>
+              <X>835.181</X>
+              <Y>7531.431</Y>
+              <Z>-1.436232</Z>
+            </Point>
+            <Point>
+              <X>1003.202</X>
+              <Y>7672.988</Y>
+              <Z>11.94732</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
   <Blackspots>
     <QuesterBlacklistRadius>
