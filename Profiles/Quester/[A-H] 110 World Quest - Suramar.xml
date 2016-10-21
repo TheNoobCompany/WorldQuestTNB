@@ -553,9 +553,9 @@
           </Entry>
           <Hotspots>
             <Point>
- <X>416.6906</X>
- <Y>4730.937</Y>
- <Z>-126.5045</Z>
+              <X>416.6906</X>
+              <Y>4730.937</Y>
+              <Z>-126.5045</Z>
             </Point>
           </Hotspots>
         </QuestObjective>
@@ -577,9 +577,9 @@
             <int>248054</int>
           </Entry>
           <Position>
- <X>416.6906</X>
- <Y>4730.937</Y>
- <Z>-126.5045</Z>
+            <X>416.6906</X>
+            <Y>4730.937</Y>
+            <Z>-126.5045</Z>
           </Position>
           <WaitMs>2000</WaitMs>
         </QuestObjective>
