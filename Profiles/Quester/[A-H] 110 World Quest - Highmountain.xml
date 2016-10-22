@@ -1263,18 +1263,16 @@
           </Hotspots>
         </QuestObjective>
         <QuestObjective>
-          <Objective>PickUpObject</Objective>
-          <CollectCount>1</CollectCount>
+          <Objective>InteractWith</Objective>
+          <Count>1</Count>
           <Entry>
             <int>247896</int>
           </Entry>
-          <Hotspots>
-            <Point>
-              <X>5671.802</X>
-              <Y>4268.25</Y>
-              <Z>694.905</Z>
-            </Point>
-          </Hotspots>
+          <Position>
+            <X>5685.888</X>
+            <Y>4258.445</Y>
+            <Z>695.4808</Z>
+          </Position>
         </QuestObjective>
       </Objectives>
     </Quest>
