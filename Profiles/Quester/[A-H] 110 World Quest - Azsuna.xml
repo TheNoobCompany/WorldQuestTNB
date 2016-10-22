@@ -1720,22 +1720,22 @@
         <QuestObjective>
           <Objective>PickUpObject</Objective>
           <InternalIndex>1</InternalIndex>
-          <Count>1</Count>
+          <CollectCount>1</CollectCount>
           <Entry>
             <int>250592</int>
           </Entry>
           <Hotspots>
             <Point>
-              <X>277.3734</X>
-              <Y>7410.086</Y>
-              <Z>145.5608</Z>
+              <X>287.5252</X>
+              <Y>7413.922</Y>
+              <Z>144.4933</Z>
             </Point>
           </Hotspots>
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpObject</Objective>
           <InternalIndex>5</InternalIndex>
-          <Count>1</Count>
+          <CollectCount>1</CollectCount>
           <Entry>
             <int>250591</int>
           </Entry>
@@ -1749,15 +1749,15 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpObject</Objective>
-          <Count>1</Count>
+          <CollectCount>1</CollectCount>
           <Entry>
             <int>250593</int>
           </Entry>
           <Hotspots>
             <Point>
-              <X>322.5892</X>
-              <Y>7549.101</Y>
-              <Z>146.167</Z>
+              <X>319.8196</X>
+              <Y>7565.911</Y>
+              <Z>147.0744</Z>
             </Point>
           </Hotspots>
         </QuestObjective>
