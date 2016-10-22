@@ -1438,9 +1438,9 @@
       <MinLevel>110</MinLevel>
       <MaxLevel>110</MaxLevel>
       <WorldQuestLocation>
- <X>4384.953</X>
- <Y>4481.313</Y>
- <Z>692.593</Z>
+        <X>4384.953</X>
+        <Y>4481.313</Y>
+        <Z>692.593</Z>
       </WorldQuestLocation>
       <Objectives>
         <QuestObjective>
@@ -1451,9 +1451,9 @@
           </Entry>
           <Hotspots>
             <Point>
- <X>4384.953</X>
- <Y>4481.313</Y>
- <Z>692.593</Z>
+              <X>4384.953</X>
+              <Y>4481.313</Y>
+              <Z>692.593</Z>
             </Point>
           </Hotspots>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
