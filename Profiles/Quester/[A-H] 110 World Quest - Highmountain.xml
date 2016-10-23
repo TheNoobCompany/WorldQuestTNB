@@ -1597,5 +1597,15 @@
       </Position>
       <Radius>100</Radius>
     </QuesterBlacklistRadius>
+    <QuesterBlacklistRadius>
+      <!-- Required by "Bitestone Bazaar" -->
+      <Position> 
+        <X>3480.604</X>
+        <Y>4451.986</Y>
+        <Z>680.7639</Z>
+      </Position>
+      <Radius>50</Radius>
+    </QuesterBlacklistRadius>
+
   </Blackspots>
 </QuesterProfile>
