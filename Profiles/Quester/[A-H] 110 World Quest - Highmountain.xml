@@ -1542,6 +1542,41 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Bitestone Bazaar</Name>
+      <Id>40951</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>3516.69</X>
+        <Y>4619.827</Y>
+        <Z>692.8995</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Count>35</Count>
+          <Entry>
+            <int>102827</int>
+            <int>98653</int>
+            <int>94261</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>3438.12</X>
+              <Y>4462.602</Y>
+              <Z>680.2896</Z>
+            </Point>
+            <Point>
+              <X>3464.071</X>
+              <Y>4418.924</Y>
+              <Z>706.4318</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
   <Blackspots>
     <QuesterBlacklistRadius>
