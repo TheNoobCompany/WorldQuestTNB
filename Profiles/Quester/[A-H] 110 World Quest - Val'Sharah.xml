@@ -2221,6 +2221,85 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Hags and Hexes</Name>
+      <Id>42124</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>2157.826</X>
+        <Y>6810.316</Y>
+        <Z>108.2062</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>PickUpNPC</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Count>5</Count>
+          <Entry>
+            <int>106372</int> 
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>2157.826</X>
+              <Y>6810.316</Y>
+              <Z>108.2062</Z>
+            </Point>
+            <Point>
+              <X>2122.519</X>
+              <Y>6899.015</Y>
+              <Z>91.96529</Z>
+            </Point>
+            <Point>
+              <X>2289.083</X>
+              <Y>6850.854</Y>
+              <Z>125.2684</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>5</InternalIndex>
+          <Count>1</Count>
+          <Entry>
+            <int>106384</int> 
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>2251.489</X>
+              <Y>6836.336</Y>
+              <Z>117.5685</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>4</InternalIndex>
+          <Count>7</Count>
+          <Entry>
+            <int>106358</int> 
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>2157.826</X>
+              <Y>6810.316</Y>
+              <Z>108.2062</Z>
+            </Point>
+            <Point>
+              <X>2122.519</X>
+              <Y>6899.015</Y>
+              <Z>91.96529</Z>
+            </Point>
+            <Point>
+              <X>2289.083</X>
+              <Y>6850.854</Y>
+              <Z>125.2684</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
   <Blackspots>
     <QuesterBlacklistRadius>
