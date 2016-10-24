@@ -1649,6 +1649,75 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Ritualists in Our Midsts</Name>
+      <Id>40966</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>4465.095</X>
+        <Y>4094.185</Y>
+        <Z>744.6396</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>PickUpNPC</Objective>
+          <InternalIndex>2</InternalIndex>
+          <Count>7</Count>
+          <Entry>
+            <int>102795</int> 
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>4465.095</X>
+              <Y>4094.185</Y>
+              <Z>744.6396</Z>
+            </Point>
+            <Point>
+              <X>4401.474</X>
+              <Y>4008.717</Y>
+              <Z>741.3212</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Count>1</Count>
+          <Entry>
+            <int>102501</int> 
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>4440.303</X>
+              <Y>3945.884</Y>
+              <Z>709.9282</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>3</InternalIndex>
+          <Count>3</Count>
+          <Entry>
+            <int>101644</int> 
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>4465.095</X>
+              <Y>4094.185</Y>
+              <Z>744.6396</Z>
+            </Point>
+            <Point>
+              <X>4401.474</X>
+              <Y>4008.717</Y>
+              <Z>741.3212</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
   <Blackspots>
     <QuesterBlacklistRadius>
