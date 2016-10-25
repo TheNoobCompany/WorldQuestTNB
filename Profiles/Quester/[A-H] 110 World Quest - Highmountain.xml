@@ -617,6 +617,36 @@
       </Objectives>
     </Quest>
     <Quest>
+      <Name>WANTED: Shara Felbreath</Name>
+      <Id>43619</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>5731.826</X>
+        <Y>4093.11</Y>
+        <Z>610.7051</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <!-- <InternalIndex>1</InternalIndex> Removed because not known -->
+          <Count>1</Count>
+          <Entry>
+            <int>97093</int> <!-- Shara Felbreath -->
+          </Entry>
+          <Hotspots>
+            <Point> 
+              <X>5742.983</X>
+              <Y>4090.582</Y>
+              <Z>608.2803</Z>
+            </Point>
+          </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
+    <Quest>
       <Name>Border Reinforcements</Name>
       <Id>41308</Id>
       <QuestLevel>110</QuestLevel>
