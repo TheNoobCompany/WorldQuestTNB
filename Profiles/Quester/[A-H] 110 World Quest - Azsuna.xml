@@ -234,7 +234,7 @@
         <Y>5325.36</Y>
         <Z>47.72783</Z>
       </WorldQuestLocation>
-      <ScriptCondition>return (Skill.GetValue(SkillLine.Herbalism) &gt; 0);</ScriptCondition>
+      <ScriptCondition>return (Skill.GetValue(SkillLine.Herbalism) &gt; 99);</ScriptCondition>
       <Objectives>
         <QuestObjective>
           <Objective>InteractWith</Objective>
@@ -919,7 +919,7 @@
         <Y>7149.966</Y>
         <Z>9.58573</Z>
       </WorldQuestLocation>
-      <ScriptCondition>return (Skill.GetValue(SkillLine.Herbalism) &gt; 0);</ScriptCondition>
+      <ScriptCondition>return (Skill.GetValue(SkillLine.Herbalism) &gt; 99);</ScriptCondition>
       <Objectives>
         <QuestObjective>
           <Objective>InteractWith</Objective>
@@ -1034,7 +1034,7 @@
         <Y>7193.648</Y>
         <Z>68.92852</Z>
       </WorldQuestLocation>
-      <ScriptCondition>return (Skill.GetValue(SkillLine.Herbalism) &gt; 0);</ScriptCondition>
+      <ScriptCondition>return (Skill.GetValue(SkillLine.Herbalism) &gt; 99);</ScriptCondition>
       <Objectives>
         <QuestObjective>
           <Objective>InteractWith</Objective>
@@ -2488,7 +2488,7 @@
         <Y>6762.221</Y>
         <Z>56.11096</Z>
       </WorldQuestLocation>
-      <ScriptCondition>return (Skill.GetValue(SkillLine.Herbalism) &gt; 0);</ScriptCondition>
+      <ScriptCondition>return (Skill.GetValue(SkillLine.Herbalism) &gt; 99);</ScriptCondition>
       <Objectives>
         <QuestObjective>
           <Objective>PickUpObject</Objective>
