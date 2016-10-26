@@ -1413,23 +1413,5 @@
       </Position>
       <Radius>10</Radius>
     </QuesterBlacklistRadius>
-    <!--    <QuesterBlacklistRadius>
-       Required by "The Creeping Mists" 
-      <Position> 
-        <X>3487.682</X>
-        <Y>1473.412</Y>
-        <Z>39.16035</Z>
-      </Position>
-      <Radius>35</Radius>
-    </QuesterBlacklistRadius>
-    <QuesterBlacklistRadius>
-       Required by "The Creeping Mists" 
-      <Position>
-        <X>3438.898</X>
-        <Y>1495.799</Y>
-        <Z>55.56992</Z>
-      </Position>
-      <Radius>35</Radius>
-    </QuesterBlacklistRadius>-->
   </Blackspots>
 </QuesterProfile>
