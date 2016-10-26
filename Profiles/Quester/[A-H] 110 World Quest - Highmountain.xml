@@ -1778,28 +1778,40 @@
       </Objectives>
     </Quest>
     <Quest>
-      <Name>WANTED: Gurbog da Basher</Name>
-      <Id>41819</Id>
+      <Name>Mists Take You</Name>
+      <Id>41122</Id>
       <QuestLevel>110</QuestLevel>
       <MinLevel>110</MinLevel>
       <MaxLevel>110</MaxLevel>
       <WorldQuestLocation>
-        <X>4174.109</X>
-        <Y>3678.978</Y>
-        <Z>878.0676</Z>
+        <X>3155.96</X>
+        <Y>3933.15</Y>
+        <Z>1175.463</Z>
       </WorldQuestLocation>
       <Objectives>
         <QuestObjective>
           <Objective>KillMob</Objective>
-          <Count>1</Count>
+          <Count>35</Count>
           <Entry>
-            <int>96590</int>
+            <int>103150</int>
+            <int>103173</int>
+            <int>103174</int>
           </Entry>
           <Hotspots>
             <Point>
-              <X>4174.109</X>
-              <Y>3678.978</Y>
-              <Z>878.0676</Z>
+              <X>3135.859</X>
+              <Y>3856.165</Y>
+              <Z>1191.275</Z>
+            </Point>
+            <Point>
+              <X>3212.316</X>
+              <Y>3864.38</Y>
+              <Z>1205.512</Z>
+            </Point>
+            <Point>
+              <X>3104.465</X>
+              <Y>3847.052</Y>
+              <Z>1232.993</Z>
             </Point>
           </Hotspots>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
@@ -1843,6 +1855,24 @@
         <Z>1169.88</Z>
       </Position>
       <Radius>30</Radius>
+    </QuesterBlacklistRadius>
+    <QuesterBlacklistRadius>
+      <!-- Required by "Mists Take You" -->
+      <Position>
+        <X>3139.319</X>
+        <Y>3899.232</Y>
+        <Z>1225.239</Z>
+      </Position>
+      <Radius>30</Radius>
+    </QuesterBlacklistRadius>
+    <QuesterBlacklistRadius>
+      <!-- Required by "Mists Take You" -->
+      <Position>
+        <X>3061.93</X>
+        <Y>3864.297</Y>
+        <Z>1193.306</Z>
+      </Position>
+      <Radius>50</Radius>
     </QuesterBlacklistRadius>
   </Blackspots>
 </QuesterProfile>
