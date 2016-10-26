@@ -1818,6 +1818,39 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Boilback Plague</Name>
+      <Id>40980</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>4978.562</X>
+        <Y>5056.782</Y>
+        <Z>788.1032</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Count>8</Count>
+          <Entry>
+            <int>102361</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>4888.201</X>
+              <Y>5106.688</Y>
+              <Z>780.0096</Z>
+            </Point>
+            <Point>
+              <X>5041.987</X>
+              <Y>5039.208</Y>
+              <Z>788.3463</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
   <Blackspots>
     <QuesterBlacklistRadius>
@@ -1873,6 +1906,15 @@
         <Z>1193.306</Z>
       </Position>
       <Radius>50</Radius>
+    </QuesterBlacklistRadius>
+    <QuesterBlacklistRadius>
+      <!-- Required by "Boilback Plague" -->
+      <Position>
+        <X>4815.964</X>
+        <Y>5082.875</Y>
+        <Z>771.0292</Z>
+      </Position>
+      <Radius>60</Radius>
     </QuesterBlacklistRadius>
   </Blackspots>
 </QuesterProfile>
