@@ -1023,10 +1023,10 @@
       <QuestLevel>110</QuestLevel>
       <MinLevel>110</MinLevel>
       <MaxLevel>110</MaxLevel>
-      <WorldQuestLocation>
-        <X>4288.236</X>
-        <Y>5769.085</Y>
-        <Z>443.2133</Z>
+      <WorldQuestLocation> 
+        <X>4276.997</X>
+        <Y>5940.405</Y>
+        <Z>424.5907</Z>
       </WorldQuestLocation>
       <Objectives>
         <QuestObjective>
