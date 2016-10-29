@@ -1281,6 +1281,36 @@
       </Objectives>
     </Quest>
     <Quest>
+      <Name>WANTED: Majestic Elderhorn</Name>
+      <Id>44292</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>5416.318</X>
+        <Y>4371.089</Y>
+        <Z>686.7238</Z>
+      </WorldQuestLocation>
+      <ScriptCondition>=IsTankScript.cs</ScriptCondition>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Count>1</Count>
+          <Entry>
+            <int>96410</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>5421.97</X>
+              <Y>4338.17</Y>
+              <Z>681.5777</Z>
+            </Point>
+          </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
+    <Quest>
       <Name>Unstable Portal</Name>
       <Id>41428</Id>
       <QuestLevel>110</QuestLevel>
