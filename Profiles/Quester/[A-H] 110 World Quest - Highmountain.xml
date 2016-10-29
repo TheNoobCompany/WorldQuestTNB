@@ -1918,6 +1918,41 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Bristled Bear Skin</Name>
+      <Id>41233</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>4933.566</X>
+        <Y>5066.442</Y>
+        <Z>784.355</Z>
+      </WorldQuestLocation>
+      <ScriptCondition>return (Skill.GetValue(SkillLine.Skinning) &gt; 99);</ScriptCondition>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <CollectItemId>134131</CollectItemId>
+          <CollectCount>12</CollectCount>
+          <Entry>
+            <int>96146</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>4912.46</X>
+              <Y>5098.628</Y>
+              <Z>783.7261</Z>
+            </Point>
+            <Point>
+              <X>5037.151</X>
+              <Y>5033.301</Y>
+              <Z>788.4081</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
   <Blackspots>
     <QuesterBlacklistRadius>
