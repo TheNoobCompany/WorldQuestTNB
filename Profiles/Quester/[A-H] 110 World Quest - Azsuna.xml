@@ -501,6 +501,7 @@
               <Z>37.25912</Z>
             </Point>
           </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
           <Objective>InteractWith</Objective>
