@@ -1650,18 +1650,11 @@
       </WorldQuestLocation>
       <Objectives>
         <QuestObjective>
-          <Objective>MoveTo</Objective>
-          <Position>
-            <X>3105.714</X>
-            <Y>3924.776</Y>
-            <Z>1181.478</Z>
-          </Position>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>PickUpObject</Objective>
+          <Objective>PickUpNPC</Objective>
           <CollectCount>50</CollectCount>
           <Entry>
-            <int>103196</int> 
+            <int>103196</int>
+            <int>247074</int>
             <int>247075</int>
           </Entry>
           <Hotspots>
