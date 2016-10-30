@@ -2771,7 +2771,7 @@
             <Y>6026.274</Y>
             <Z>79.88235</Z>
           </Position>
-          <Range>60</Range>
+          <Range>10</Range>
           <WaitMs>8000</WaitMs>
         </QuestObjective>
         <QuestObjective>
