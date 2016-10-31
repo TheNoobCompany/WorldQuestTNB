@@ -2558,19 +2558,30 @@
       </WorldQuestLocation>
       <Objectives>
         <QuestObjective>
+          <Objective>MoveTo</Objective>
+          <ScriptConditionIsComplete>=IsInRange.cs</ScriptConditionIsComplete>
+          <InternalIndex>2</InternalIndex>
+          <Count>1</Count>
+          <Position>
+            <X>-1195.219</X>
+            <Y>5808.616</Y>
+            <Z>11.56163</Z>
+          </Position>
+          <Range>5</Range>
+        </QuestObjective>
+        <QuestObjective>
           <Objective>KillMob</Objective>
+          <ScriptCondition>=HasDirectMovedTo.cs</ScriptCondition>
           <InternalIndex>2</InternalIndex>
           <Count>1</Count>
           <Entry>
             <int>108137</int>
           </Entry>
-          <Hotspots>
-            <Point>
-              <X>-1246.569</X>
-              <Y>5905.662</Y>
-              <Z>0.887997</Z>
-            </Point>
-          </Hotspots>
+          <Position>
+            <X>-1209.405</X>
+            <Y>5800.414</Y>
+            <Z>19.32987</Z>
+          </Position>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
@@ -2582,9 +2593,9 @@
           </Entry>
           <Hotspots>
             <Point>
-              <X>-1205.701</X>
-              <Y>5799.835</Y>
-              <Z>18.56892</Z>
+              <X>-1246.569</X>
+              <Y>5905.662</Y>
+              <Z>0.887997</Z>
             </Point>
           </Hotspots>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
