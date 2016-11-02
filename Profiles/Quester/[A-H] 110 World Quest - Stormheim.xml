@@ -1418,6 +1418,51 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Solid Crabshell Fragment</Name>
+      <Id>41343</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>3973.084</X>
+        <Y>1394.328</Y>
+        <Z>0.7369797</Z>
+      </WorldQuestLocation>
+      <ScriptCondition>return (Skill.GetValue(SkillLine.Skinning) &gt; 99);</ScriptCondition>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <CollectCount>12</CollectCount>
+          <CollectItemId>134817</CollectItemId>
+          <Entry>
+            <int>107667</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>4019.177</X>
+              <Y>1357.387</Y>
+              <Z>0.9155377</Z>
+            </Point>
+            <Point>
+              <X>3927.182</X>
+              <Y>1429.134</Y>
+              <Z>0.4008801</Z>
+            </Point>
+            <Point>
+              <X>3760.328</X>
+              <Y>1305.36</Y>
+              <Z>2.809548</Z>
+            </Point>
+            <Point>
+              <X>3823.873</X>
+              <Y>1137.552</Y>
+              <Z>0.4046322</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
   <Blackspots>
     <QuesterBlacklistRadius>
