@@ -542,6 +542,35 @@
       </Objectives>
     </Quest>
     <Quest>
+      <Name>WANTED: Isel the Hammer</Name>
+      <Id>43624</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation>
+        <X>2809.036</X>
+        <Y>1456.795</Y>
+        <Z>23.25592</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Count>1</Count>
+          <Entry>
+            <int>94413</int> <!-- Isel the Hammer -->
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>2822.455</X>
+              <Y>1445.586</Y>
+              <Z>24.261</Z>
+            </Point>
+          </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
+    <Quest>
       <Name>Get Vrekt</Name>
       <Id>41427</Id>
       <QuestLevel>110</QuestLevel>
