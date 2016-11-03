@@ -1463,6 +1463,36 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>You Have Been Challenged</Name>
+      <Id>41936</Id>
+      <QuestLevel>110</QuestLevel>
+      <MinLevel>110</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <WorldQuestLocation> 
+        <X>2538.469</X>
+        <Y>1508.59</Y>
+        <Z>23.14315</Z>
+      </WorldQuestLocation>
+      <Objectives>
+        <QuestObjective>
+          <Objective>CSharpScript</Objective>
+          <Script>=Resolves41936.cs</Script>
+          <Entry>
+            <int>248881</int>
+            <int>105399</int>
+            <int>105424</int>
+            <int>105432</int>
+            <int>105433</int>
+          </Entry>
+          <Position>
+            <X>2542.504</X>
+            <Y>1492.964</Y>
+            <Z>23.14304</Z>
+          </Position>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
   <Blackspots>
     <QuesterBlacklistRadius>
