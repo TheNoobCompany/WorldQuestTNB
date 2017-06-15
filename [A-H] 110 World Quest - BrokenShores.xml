@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<QuesterProfile Author="" DevelopmentStatus="WorkInProgress">
+  <Questers />
+  <Quests>
+    <Quest>
+      <Name />
+      <Id>0</Id>
+      <QuestLevel>0</QuestLevel>
+      <MinLevel>0</MinLevel>
+      <MaxLevel>0</MaxLevel>
+      <Objectives />
+    </Quest>
+    <Quest>
+      <Name />
+      <Id>0</Id>
+      <QuestLevel>0</QuestLevel>
+      <MinLevel>0</MinLevel>
+      <MaxLevel>0</MaxLevel>
+      <Objectives />
+    </Quest>
+  </Quests>
+  <Blackspots>
+    <QuesterBlacklistRadius>
+      <Position>
+        <X>1698.091</X>
+        <Y>5414.356</Y>
+        <Z>45.07841</Z>
+      </Position>
+      <Radius>30</Radius>
+    </QuesterBlacklistRadius>
+  </Blackspots>
+</QuesterProfile>
